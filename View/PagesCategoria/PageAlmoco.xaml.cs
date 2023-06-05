@@ -14,5 +14,4 @@ public partial class PageAlmoco : ContentPage
         var novaPagina = new PageOpenCardapio(selectedItem, selectedItem.Nome);
         Navigation.PushAsync(novaPagina);
     }
-
 }
