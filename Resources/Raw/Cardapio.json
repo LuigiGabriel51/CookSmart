@@ -1,0 +1,287 @@
+{
+  "CardapioDrinks": {
+    "QuentaoMorango": {
+      "Nome": "Quentão de morango",
+      "Descricao": "Prepare-se para aquecer seu coração e seu paladar com uma bebida típica brasileira cheia de sabor e tradição, quentão de morango. Esta bebida quente e forte, servida para aquecer e espantar o friozinho do outono, é servida especialmente nas festas juninas, fazendo muito sucesso!",
+      "Ingredientes": "Passo 1: 250 gramas de morangos maduros\nPasso 2: ½ laranja\nPasso 3: 1 colher de chá de gengibre ralado\nPasso 4: 1 canela em pau\nPasso 5: 5 cravos da índia\nPasso 6: 250 mililitros de cachaça\nPasso 7: 500 mililitros de água\nPasso 8: ¾ xícara de açúcar (120 gramas)",
+      "Modo_preparo": "Passo 1: Lave e higienize os morangos, tirando suas folhas.\nPasso 2: Corte os morangos em cubinhos ou rodelas e fatie finamente a laranja, mantendo sua casca.\nPasso 3: Numa panela, junte os morangos, a laranja e o açúcar.\nPasso 4: Acrescente também o gengibre ralado, os cravos da índia, a canela em pau e a água.\nPasso 5: Cozinhe em fogo baixo por cerca de 25 minutos.\nPasso 6: Depois desse tempo, com a bebida mais encorpada, acrescente a cachaça e deixe cozinhar ainda em fogo baixo por mais 15 minutos.\nPasso 7: Desligue o fogo e sirva a seguir.\nPasso 8: Prontinho! Agora é só saborear o seu quentão de morango bem quentinho rico em sabores e aromas! O morango dá um toque todo especial ao quentão! Aproveite!\n\nEsperamos que tenha curtido essa receita de quentão de morango! Bom apetite!",
+      "Tempo_preparo": 45,
+      "image": "https://img.freepik.com/fotos-gratis/geleia-de-morango-em-fundo-escuro_1150-37972.jpg"
+    },
+    "ChocoFit": {
+      "Nome": "Chocolate quente fit",
+      "Descricao": "Esta receita de chocolate quente fit é a opção perfeita para aqueles que desejam desfrutar de uma bebida quente e reconfortante sem abrir mão de uma alimentação saudável.",
+      "Ingredientes": "Passo 1: 300 mililitros de leite (1¼ xícaras)\nPasso 2: 50 gramas de chocolate em barra 70%\nPasso 3: 1 pitada de pimenta caiena\nPasso 4: 1 canela em rama\nPasso 5: noz moscada ralada",
+      "Modo_preparo": "Passo 1: Em uma panela desligada, adicione o leite, o chocolate, a canela em rama e a pimenta caiena e rale a noz moscada. Se desejar, pode adoçar com mel ou como preferir.\nPasso 2: Ligue em fogo médio mexendo bem até derreter todo o chocolate. Quando derreter, abaixe o fogo e deixe por mais 5 minutos mexendo de vez em quando para apurar o sabor das especiarias.\nPasso 3: Retire a canela em rama e seu chocolate quente está pronto para ser servido!",
+      "Tempo_preparo": 10,
+      "image": "https://img.freepik.com/fotos-gratis/copo-de-leite-com-chocolate-na-superficie-escura_1150-43343.jpg"
+    },
+    "BatidaAmendoim": {
+      "Nome": "Batida de amendoim",
+      "Descricao": "Você já está pensando nas receitas de festa junina? Por aqui nós já estamos e hoje tem batida de amendoim pra começar a contagem regressiva para essa época deliciosa do ano!",
+      "Ingredientes": "Passo 1: 1 lata de leite condensado\nPasso 2: ½ xícara de amendoim torrado sem pele e sem sal\nPasso 3: 100 mililitros de cachaça\nPasso 4: cubos de gelo a gosto",
+      "Modo_preparo": "Passo 1: Coloque todos os ingredientes no liquidificador.\nPasso 2: Bata bem até ficar bem liso, aproximadamente 5 minutos.\nPasso 3: Sirva em seguida e, se quiser, decore o copo com pedacinhos de amendoim.",
+      "Tempo_preparo": 5,
+      "image": "https://img.freepik.com/fotos-premium/cafe-da-manha-saudavel-batido-de-amendoa-de-banana-com-canela-e-flocos-de-aveia-e-leite-de-coco-em-frascos-de-vidro_633077-2117.jpg"
+    },
+    "CaipirinhaAbacaxiHortela": {
+      "Nome": "Caipirinha de Abacaxi com Hortelã",
+      "Descricao": "A caipirinha de abacaxi com hortelã é uma opção refrescante e deliciosa para aproveitar em qualquer ocasião. Você pode optar por usar cachaça ou vodka, de acordo com sua preferência.",
+      "Ingredientes": "1 abacaxi\nFolhas de hortelã a gosto\n2 colheres de sopa de açúcar\nPedras de gelo a gosto\n2 doses de vodka ou cachaça",
+      "Modo_preparo": "Retire a coroa e a tampa do abacaxi. Com uma faca de serra, vá retirando todo o miolo para transformá-lo em um 'copo'. Reserve.\nPique o miolo do abacaxi e transfira para uma coqueteleira.\nAdicione as folhas de hortelã, o açúcar e macere bem.\nAcrescente o gelo, a vodka ou cachaça, feche a coqueteleira e chacoalhe bem.\nDespeje a caipirinha no 'copo' de abacaxi e decore como preferir.\nAgora é só servir. Bom apetite!",
+      "Tempo_preparo": 20,
+      "image": "https://img.freepik.com/fotos-gratis/limao-mojito_74190-1334.jpg"
+    },
+    "SexOnTheBeach": {
+      "Nome": "Sex on the Beach",
+      "Descricao": "O Sex on the Beach é um drink clássico, de origem norte-americana, que também faz sucesso no Brasil. Com uma combinação de sabores frutados, é uma opção refrescante para diversas ocasiões.",
+      "Ingredientes": "1 dose de vodka\n1/2 dose de licor de pêssego\n1 dose de suco de laranja\n3 cubos de gelo\n1/2 dose de xarope de groselha",
+      "Modo_preparo": "Em uma coqueteleira, coloque a vodka, o licor, o suco de laranja e bata.\nAdicione o gelo e misture.\nSepare um copo de drink grande e despeje metade da groselha.\nTransfira a mistura da coqueteleira para o copo e finalize com o restante da groselha.\nDecore e sirva. Bom apetite!",
+      "Tempo_preparo": 5,
+      "image": "https://img.freepik.com/fotos-premium/vista-frontal-dividida-ao-meio-laranja-ao-lado-de-suco-de-laranja_23-2148226009.jpg"
+    },
+    "PinaColada": {
+      "Nome": "Piña Colada",
+      "Descricao": "A Piña Colada é um drink tropical, originário do Caribe, que também é bastante apreciado no Brasil. Combinando rum, leite de coco e suco de abacaxi, é uma opção saborosa e refrescante para se deliciar.",
+      "Ingredientes": "50 ml de rum\n50 ml de leite de coco\n100 ml de suco de abacaxi\n1 colher de sopa de açúcar\nCubos de gelo a gosto",
+      "Modo_preparo": "Reúna todos os ingredientes.\nColoque tudo em uma coqueteleira, exceto o gelo, e agite até obter uma mistura cremosa.\nTransfira a bebida para um copo (ou taça) e adicione o gelo. Aproveite!\nSe você é fã de bebidas doces, acrescente leite condensado à sua Piña Colada, decore-a com frutas e se delicie!",
+      "Tempo_preparo": 7,
+      "image": "https://img.freepik.com/fotos-gratis/smoothie-de-abacaxi_1339-496.jpg"
+    },
+    "LagoaAzul": {
+      "Nome": "Lagoa Azul",
+      "Descricao": "O Lagoa Azul é um drink clássico que ficou popular nos anos 80. Sua bela cor azul e o sabor refrescante o tornam uma ótima opção para desfrutar em diversas ocasiões.",
+      "Ingredientes": "Gelo a gosto\n3 rodelas de limão\n50 ml de vodka\n45 ml de Curaçao Blue\n100 ml de refrigerante de limão",
+      "Modo_preparo": "Coloque o gelo e as rodelas de limão no copo.\nAdicione a vodka e o Curaçao Blue.\nComplete o copo com o refrigerante.\nAgora é só servir! Bom apetite!",
+      "Tempo_preparo": 5,
+      "image": "https://img.freepik.com/fotos-gratis/bebida-azul-com-cubos-de-gelo-em-vidro-longo-guarda-chuva-decorado_23-2148145349.jpg"
+    },
+    "Mojito": {
+      "Nome": "Mojito",
+      "Descricao": "O Mojito é um coquetel clássico e refrescante, originário de Cuba. Combinando rum, hortelã, limão, açúcar e água com gás, é perfeito para os dias quentes de verão.",
+      "Ingredientes": "6 folhas de hortelã\n1/2 limão em rodelas\n2 colheres de chá de açúcar\n50 ml de rum\nÁgua com gás a gosto\nGelo a gosto",
+      "Modo_preparo": "Em um copo, adicione as folhas de hortelã, o limão e o açúcar.\nAmasse delicadamente os ingredientes no copo para liberar os sabores.\nAdicione o rum e mexa bem.\nComplete o copo com gelo e água com gás.\nMisture suavemente e decore com uma folha de hortelã. Aproveite!",
+      "Tempo_preparo": 5,
+      "image": "https://img.freepik.com/fotos-premium/caipirinha-brasileira-com-gelo-e-limao-em-um-copo-em-uma-foto-de-estudio_496782-1073.jpg"
+    },
+    "Margarita": {
+      "Nome": "Margarita",
+      "Descricao": "A Margarita é um drink clássico mexicano, conhecido por sua combinação de tequila, licor de laranja e suco de limão. É uma opção cítrica e refrescante para apreciar em qualquer ocasião.",
+      "Ingredientes": "50 ml de tequila\n30 ml de suco de limão\n20 ml de licor de laranja\n1 colher de chá de açúcar\nGelo a gosto\nFatia de limão para decorar",
+      "Modo_preparo": "Em uma coqueteleira, adicione a tequila, o suco de limão, o licor de laranja e o açúcar.\nAdicione gelo e agite bem.\nPasse uma fatia de limão na borda de uma taça de margarita e mergulhe a borda no sal.\nDespeje a mistura na taça e decore com uma fatia de limão. Aproveite!",
+      "Tempo_preparo": 5,
+      "image": "https://img.freepik.com/fotos-gratis/bebida-fresca-de-cocktail-com-alcool-cubos-de-gelo-e-uma-fatia-de-limao-num-copo_114579-1448.jpg"
+    },
+    "Daiquiri": {
+      "Nome": "Daiquiri",
+      "Descricao": "O Daiquiri é um coquetel clássico, originário de Cuba, que combina rum, suco de limão e açúcar. Com um sabor equilibrado e refrescante, é perfeito para os amantes de rum.",
+      "Ingredientes": "50 ml de rum\n30 ml de suco de limão\n2 colheres de chá de açúcar\nGelo a gosto",
+      "Modo_preparo": "Em uma coqueteleira, adicione o rum, o suco de limão e o açúcar.\nAdicione gelo e agite bem.\nCoe a mistura em uma taça de coquetel resfriada.\nDecore com uma fatia de limão. Aproveite!",
+      "Tempo_preparo": 5,
+      "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-daiquiri-1.jpg"
+    },
+    "Cosmopolitan": {
+      "Nome": "Cosmopolitan",
+      "Descricao": "O Cosmopolitan é um drink famoso, conhecido por sua cor vibrante e sabor cítrico. Com vodka, suco de cranberry, licor de laranja e suco de limão, é uma opção sofisticada para ocasiões especiais.",
+      "Ingredientes": "50 ml de vodka\n30 ml de suco de cranberry\n20 ml de licor de laranja\n10 ml de suco de limão\nGelo a gosto\nTiras de casca de limão para decorar",
+      "Modo_preparo": "Em uma coqueteleira, adicione a vodka, o suco de cranberry, o licor de laranja e o suco de limão.\nAdicione gelo e agite bem.\nCoe a mistura em uma taça de martini resfriada.\nDecore com tiras de casca de limão. Aproveite!",
+      "Tempo_preparo": 5,
+      "image": "https://gastronomium.com.br/wp-content/uploads/2020/08/cosmopolitan-drink-receita.jpg"
+    }
+  },
+
+
+
+
+  "CardapioAlmoco": {
+    "BifeAcebolado": {
+      "Nome": "Bife Acebolado",
+      "Descricao": "Um clássico da culinária brasileira, o bife acebolado é simples de preparar e cheio de sabor. A combinação de bife, cebola, alho e temperos resulta em um prato delicioso que pode ser acompanhado por arroz, feijão e batatas fritas.",
+      "Ingredientes": "4 bifes de carne (alcatra, contrafilé, filé mignon, etc.)\n2 cebolas grandes\n2 dentes de alho\nSal a gosto\nPimenta-do-reino a gosto\nÓleo ou manteiga para fritar",
+      "Modo_preparo": "Tempere os bifes com sal, pimenta-do-reino e alho picado.\nEm uma frigideira, aqueça o óleo ou a manteiga em fogo médio.\nFrite os bifes até atingirem o ponto desejado e reserve.\nNa mesma frigideira, adicione mais óleo ou manteiga, se necessário, e acrescente as cebolas fatiadas.\nRefogue as cebolas até ficarem douradas e macias.\nColoque os bifes de volta na frigideira junto com as cebolas e aqueça por alguns minutos.\nSirva quente acompanhado de arroz, feijão e batatas fritas. Bom apetite!",
+      "Tempo_preparo": 20,
+      "image": "https://img.freepik.com/fotos-premium/um-prato-de-bife-com-molho-marrom_894903-6267.jpg?"
+    },
+    "LasanhaBolonhesa": {
+      "Nome": "Lasanha à Bolonhesa",
+      "Descricao": "A lasanha à bolonhesa é um prato clássico da culinária italiana que conquistou o mundo. Com camadas de massa intercaladas com molho de carne e queijo, é uma opção deliciosa para um almoço ou jantar especial.",
+      "Ingredientes": "500g de massa de lasanha\n500g de carne moída\n1 cebola picada\n2 dentes de alho picados\n1 lata de tomate pelado\n2 colheres de sopa de extrato de tomate\n1 colher de chá de açúcar\nSal a gosto\nPimenta-do-reino a gosto\nOrégano a gosto\nQueijo muçarela ralado a gosto\nQueijo parmesão ralado a gosto",
+      "Modo_preparo": "Em uma panela, aqueça um pouco de óleo e refogue a cebola e o alho até dourarem.\nAdicione a carne moída e cozinhe até ficar bem dourada e cozida.\nAcrescente o tomate pelado, o extrato de tomate, o açúcar, o sal, a pimenta-do-reino e o orégano.\nCozinhe em fogo baixo por aproximadamente 30 minutos, mexendo de vez em quando.\nEm uma forma refratária, monte camadas alternadas de massa, molho bolonhesa e queijo muçarela ralado.\nRepita as camadas até terminarem os ingredientes, finalizando com queijo parmesão ralado.\nLeve ao forno preaquecido a 180°C por aproximadamente 40 minutos, ou até a lasanha estar dourada e borbulhante.\nDeixe descansar por alguns minutos antes de servir. Bom apetite!",
+      "Tempo_preparo": 90,
+      "image": "https://img.freepik.com/fotos-gratis/lasanha-classica-com-molho-a-bolonhesa_2829-11251.jpg"
+    },
+    "FrangoXadrez": {
+      "Nome": "Frango Xadrez",
+      "Descricao": "O frango xadrez é um prato da culinária chinesa que combina pedaços de frango, legumes e molho agridoce. Com um sabor marcante e uma apresentação colorida, é uma opção deliciosa para uma refeição especial.",
+      "Ingredientes": "500g de peito de frango cortado em cubos\n1 pimentão vermelho cortado em cubos\n1 pimentão verde cortado em cubos\n1 cebola cortada em cubos\n1 cenoura cortada em rodelas finas\n1 xícara de cogumelos fatiados\n2 dentes de alho picados\n2 colheres de sopa de óleo de gergelim\n2 colheres de sopa de molho shoyu\n1 colher de sopa de amido de milho\n1 colher de sopa de açúcar\nSal a gosto\nPimenta-do-reino a gosto\nArroz branco cozido para acompanhar",
+      "Modo_preparo": "Tempere os cubos de frango com sal, pimenta-do-reino e alho picado.\nEm uma frigideira grande ou wok, aqueça o óleo de gergelim em fogo alto.\nAdicione o frango e frite até dourar por todos os lados.\nAdicione os pimentões, a cebola, a cenoura e os cogumelos à frigideira.\nMantenha em fogo alto e mexa constantemente até os legumes ficarem macios, mas ainda crocantes.\nEm uma tigela pequena, misture o molho shoyu, o amido de milho e o açúcar.\nDespeje a mistura na frigideira e mexa bem até o molho engrossar e revestir todos os ingredientes.\nVerifique o tempero e ajuste o sal e a pimenta-do-reino, se necessário.\nSirva o frango xadrez quente acompanhado de arroz branco. Bom apetite!",
+      "Tempo_preparo": 30,
+      "image": "https://i1.wp.com/www.tvcatiafonseca.com.br/wp-content/uploads/2018/03/FRANGO-XADREZ-e1552943918236.png"
+    },
+    "SpaghettiCarbonara": {
+      "Nome": "Spaghetti à Carbonara",
+      "Descricao": "O spaghetti à carbonara é uma das receitas mais famosas da culinária italiana. Com uma combinação irresistível de massa, ovos, queijo parmesão, pancetta e pimenta-do-reino, é um prato saboroso e fácil de preparar.",
+      "Ingredientes": "500g de spaghetti\n200g de pancetta ou bacon em cubos\n4 gemas de ovos\n1 xícara de queijo parmesão ralado\nPimenta-do-reino a gosto\nSal a gosto\nÁgua para cozinhar a massa",
+      "Modo_preparo": "Em uma panela grande, ferva água com sal para cozinhar o spaghetti.\nEnquanto isso, em uma frigideira, frite a pancetta ou bacon em fogo médio até ficar crocante e dourado.\nEm uma tigela, misture as gemas de ovos, o queijo parmesão, a pimenta-do-reino e uma pitada de sal.\nQuando o spaghetti estiver al dente, escorra a água e reserve um pouco.\nColoque o spaghetti na frigideira com a pancetta ou bacon e misture bem.\nRetire a frigideira do fogo e adicione a mistura de gemas e queijo.\nMexa rapidamente para que os ovos cozinhem levemente com o calor da massa, formando um molho cremoso.\nSe necessário, adicione um pouco da água reservada para ajustar a cremosidade do molho.\nSirva o spaghetti à carbonara imediatamente, acompanhado de queijo parmesão ralado. Bom apetite!",
+      "Tempo_preparo": 20,
+      "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0346a29a89ef229b1a0ff9697184f944/Derivates/cb5051204f4a4525c8b013c16418ae2904e737b7.jpg"
+    },
+    "ArrozCarreteiro": {
+      "Nome": "Arroz Carreteiro",
+      "Descricao": "O arroz carreteiro é um prato tradicional da culinária gaúcha, feito com carne de charque, arroz e temperos. É uma opção saborosa e reconfortante para uma refeição completa.",
+      "Ingredientes": "300g de carne de charque\n2 xícaras de arroz\n1 cebola picada\n2 dentes de alho picados\n2 tomates picados\n2 colheres de sopa de óleo\n4 xícaras de água\nSal a gosto\nPimenta-do-reino a gosto\nSalsinha picada para decorar",
+      "Modo_preparo": "Em uma panela de pressão, cozinhe a carne de charque em água por aproximadamente 20 minutos, para dessalgar.\nEscorra a água e desfie a carne de charque.\nEm uma panela grande, aqueça o óleo e refogue a cebola picada e o alho picado até ficarem dourados.\nAdicione a carne de charque desfiada e os tomates picados, e refogue por alguns minutos.\nAcrescente o arroz lavado e escorrido, e misture bem.\nAdicione a água, o sal e a pimenta-do-reino.\nCozinhe em fogo médio, com a panela semi-tampada, até que o arroz esteja cozido e a água tenha sido absorvida.\nDesligue o fogo e deixe o arroz descansar por alguns minutos.\nAntes de servir, salpique salsinha picada por cima. Bom apetite!",
+      "Tempo_preparo": 40,
+      "image": "https://cdn.panelinha.com.br/receita/1633350306253-Panelinha_03_09_21_319.jpg"
+    },
+    "RisotoCogumelos": {
+      "Nome": "Risoto de Cogumelos",
+      "Descricao": "O risoto de cogumelos é uma opção sofisticada e saborosa para uma refeição especial. Com cogumelos variados, arroz arbóreo e queijo parmesão, o risoto fica cremoso e cheio de sabores.",
+      "Ingredientes": "2 xícaras de arroz arbóreo\n200g de cogumelos variados (shiitake, shimeji, champignon, etc.)\n1 cebola picada\n2 dentes de alho picados\n4 xícaras de caldo de legumes\n1/2 xícara de vinho branco seco\n2 colheres de sopa de manteiga\n1/2 xícara de queijo parmesão ralado\nSal a gosto\nPimenta-do-reino a gosto\nSalsinha picada para decorar",
+      "Modo_preparo": "Em uma panela, aqueça o caldo de legumes e mantenha-o em fogo baixo.\nEm outra panela, derreta 1 colher de sopa de manteiga e refogue a cebola picada e o alho picado até ficarem dourados.\nAdicione os cogumelos variados e refogue por alguns minutos, até que fiquem macios.\nAcrescente o arroz arbóreo e misture bem, para que os grãos fiquem envolvidos na manteiga e nos cogumelos.\nAdicione o vinho branco seco e mexa até que o líquido seja absorvido pelo arroz.\nComece a adicionar o caldo de legumes, concha por concha, mexendo sempre e esperando que o líquido seja absorvido antes de adicionar mais.\nRepita esse processo até que o arroz esteja al dente, cozido mas ainda levemente firme.\nDesligue o fogo, adicione 1 colher de sopa de manteiga e o queijo parmesão ralado.\nMexa bem até que a manteiga e o queijo derretam e formem um risoto cremoso.\nTempere com sal e pimenta-do-reino a gosto.\nSirva o risoto de cogumelos decorado com salsinha picada. Bom apetite!",
+      "Tempo_preparo": 30,
+      "image": "https://www.receitas.eduguedes.com.br/wp-content/uploads/2017/08/edu-risoto-de-cogumelo.jpg"
+    },
+    "Feijoada": {
+      "Nome": "Feijoada",
+      "Descricao": "A feijoada é um prato típico da culinária brasileira, feito com feijão preto, carnes variadas e temperos. É uma refeição completa e cheia de sabor, perfeita para ser compartilhada com amigos e família.",
+      "Ingredientes": "500g de feijão preto\n200g de carne de porco salgada (paio, linguiça calabresa, etc.)\n200g de carne de porco defumada (costela, lombo, etc.)\n200g de carne bovina (carne seca, costelinha, etc.)\n1 cebola picada\n4 dentes de alho picados\n2 folhas de louro\nPimenta-do-reino a gosto\nSal a gosto\nFarinha de mandioca torrada\nCouve refogada\nLaranja em rodelas para acompanhar",
+      "Modo_preparo": "Deixe o feijão preto de molho em água fria por cerca de 2 horas. Em seguida, escorra a água.\nEm uma panela de pressão, cozinhe o feijão preto com água suficiente para cobrir os grãos, por aproximadamente 30 minutos, ou até que estejam macios.\nEscorra o feijão e reserve.\nEm outra panela, cozinhe as carnes de porco salgadas e defumadas em água por aproximadamente 30 minutos, para dessalgar.\nEscorra a água e corte as carnes em pedaços.\nEm uma panela grande, refogue a cebola picada e o alho picado até ficarem dourados.\nAdicione as carnes cortadas, o feijão preto cozido, as folhas de louro, a pimenta-do-reino e sal a gosto.\nCozinhe em fogo baixo, com a panela semi-tampada, por aproximadamente 2 horas, mexendo de vez em quando.\nDurante o cozimento, adicione água quente aos poucos, se necessário, para manter a consistência cremosa da feijoada.\nPrepare a farinha de mandioca torrada e a couve refogada como acompanhamentos.\nSirva a feijoada acompanhada de farinha de mandioca, couve refogada e rodelas de laranja. Bom apetite!",
+      "Tempo_preparo": 120,
+      "image": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg"
+    },
+    "MacarraoAlhoOleo": {
+      "Nome": "Macarrão ao Alho e Óleo",
+      "Descricao": "O macarrão ao alho e óleo é uma receita simples e saborosa, perfeita para uma refeição rápida. Com poucos ingredientes, é uma opção prática e deliciosa para qualquer ocasião.",
+      "Ingredientes": "500g de macarrão (espaguete, talharim, etc.)\n6 dentes de alho picados\n1/2 xícara de azeite de oliva\nPimenta vermelha em flocos a gosto\nSal a gosto\nSalsinha picada para decorar",
+      "Modo_preparo": "Cozinhe o macarrão em água com sal, seguindo as instruções da embalagem.\nEnquanto o macarrão cozinha, aqueça o azeite de oliva em uma frigideira.\nAdicione o alho picado e a pimenta vermelha em flocos.\nRefogue o alho em fogo baixo, até que fique dourado e perfumado.\nEscorra o macarrão cozido e transfira para a frigideira com o alho refogado.\nMisture bem, envolvendo o macarrão no azeite de oliva e no alho.\nTempere com sal a gosto e salsinha picada.\nSirva o macarrão ao alho e óleo decorado com mais salsinha picada. Bom apetite!",
+      "Tempo_preparo": 15,
+      "image": "https://static.itdg.com.br/images/1200-675/b738131b402ba33d58befa56415ba106/324571-original.jpg"
+    },
+    "BaiãoDeDois": {
+      "Nome": "Baião de Dois",
+      "Descricao": "O Baião de Dois é um prato típico da culinária nordestina que combina arroz, feijão-fradinho, carne-seca e diversos temperos. Essa receita tradicional é conhecida pela sua mistura de sabores e texturas, resultando em um prato delicioso e reconfortante.",
+      "Ingredientes": "1/2 xícara (chá) de manteiga\n1 xícara (chá) de bacon em cubos\n1 gomo de linguiça calabresa picado\n1 cebola picada\n2 dentes de alho amassados\n1 pimentão vermelho picado\n500g de carne-seca dessalgada cozida e desfiada\n3 xícaras (chá) de arroz branco cozido\n1 xícara (chá) de feijão-fradinho cozido com o caldo\nSal, pimenta-do-reino e coentro picado a gosto\n1 xícara (chá) de queijo coalho em cubos",
+      "Modo_preparo": "1. Em uma panela, em fogo médio, derreta a manteiga e frite o bacon até dourar.\n2. Adicione a linguiça calabresa, a cebola, o alho e o pimentão. Refogue por 3 minutos ou até dourar.\n3. Acrescente a carne-seca, o arroz cozido e o feijão-fradinho com o caldo. Refogue, mexendo por 2 minutos.\n4. Tempere com sal, pimenta-do-reino e coentro picado a gosto. Desligue o fogo.\n5. Junte o queijo coalho em cubos e misture bem.\n6. Transfira para uma travessa e sirva em seguida.",
+      "Tempo_preparo": 20,
+      "image": "https://cadareceita.com.br/wp-content/uploads/2022/04/baiaodedois-cadareceita-5.jpg"
+    },
+    "FusilliCamaraoAlcaparras": {
+      "Nome": "Fusilli com Camarão e Alcaparras",
+      "Descricao": "O Fusilli com camarão e alcaparras é um prato delicioso e sofisticado que combina a textura do macarrão fusilli com o sabor marcante do camarão e o toque especial das alcaparras. Essa receita é perfeita para impressionar seus convidados em ocasiões especiais.",
+      "Ingredientes": "500g de macarrão tipo parafuso\n2 colheres (sopa) de manteiga\n2 dentes de alho amassados\n3 xícaras (chá) de camarão pequeno e limpo\n1/2 colher (chá) de sal\nPimenta-do-reino a gosto\n1/4 de xícara (chá) de salsa picada\n1/4 de xícara (chá) de alcaparras\n1/2 xícara (chá) vinho branco seco\n1/2 xícara (chá) de queijo parmesão ralado\nPão italiano para acompanhar",
+      "Modo_preparo": "1. Cozinhe o macarrão de acordo com as instruções da embalagem, coloque em um refratário e reserve.\n2. Em uma frigideira funda, derreta a manteiga, acrescente o alho e o camarão. Refogue em fogo alto por 5 minutos.\n3. Tempere com o sal e a pimenta-do-reino.\n4. Acrescente a salsa, as alcaparras e o vinho. Deixe ferver por mais 5 minutos.\n5. Desligue o fogo, acrescente o queijo parmesão e cubra o macarrão com o molho.\n6. Sirva em seguida acompanhado de pão italiano.",
+      "Tempo_preparo": 40,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2023/05/Fusilli-com-camarao-e-alcaparras.jpg"
+    },
+    "SalpicaoPotinho": {
+      "Nome": "Salpicão no potinho",
+      "Descricao": "O Salpicão no potinho é uma opção prática e deliciosa para servir como entrada ou acompanhamento em ocasiões especiais. Essa versão individualizada do salpicão é perfeita para montar em potinhos e levar para um piquenique ou para servir em festas.",
+      "Ingredientes": "1 maçã-verde picada\nSuco de 1/2 limão\n3 xícaras (chá) de frango cozido e desfiado\n2 batatas cozidas em cubos\n1 cenoura ralada\n1/2 xícara (chá) de uva-passa branca sem sementes\n1/2 xícara (chá) de uva-passa preta sem sementes\n1 talo de salsão picado\n1 xícara (chá) de maionese\nSal e pimenta-do-reino a gosto\nFolhas de hortelã para decorar",
+      "Modo_preparo": "1. Em uma tigela, misture a maçã, o suco de limão, o frango, a batata, a cenoura, as passas, o salsão e a maionese.\n2. Tempere com sal e pimenta-do-reino.\n3. Cubra e leve à geladeira por 30 minutos.\n4. Retire da geladeira, divida entre potinhos ou travessas individuais.\n5. Decore com folhas de hortelã e sirva em seguida.",
+      "Tempo_preparo": 20,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/salpicao-no-copinho.jpg"
+    }
+  },
+
+
+
+  "CardapioCafe": {
+    "OmeleteEspinafreQueijo": {
+      "Nome": "Omelete de Espinafre e Queijo",
+      "Descricao": "Uma deliciosa omelete recheada com espinafre fresco e queijo ralado.",
+      "Ingredientes": "ovos, espinafre fresco, queijo ralado, sal, pimenta",
+      "Modo_preparo": "1. Em uma tigela, bata os ovos até ficarem homogêneos.\n2. Adicione o espinafre fresco e o queijo ralado à tigela, misturando bem.\n3. Tempere com sal e pimenta a gosto.\n4. Em uma frigideira antiaderente, aqueça um pouco de óleo ou manteiga em fogo médio.\n5. Despeje a mistura de ovos na frigideira e cozinhe por alguns minutos até a parte de baixo ficar firme.\n6. Com o auxílio de uma espátula, vire a omelete e cozinhe o outro lado até ficar completamente firme.\n7. Transfira a omelete para um prato e sirva quente.",
+      "Tempo_preparo": 15,
+      "image": "https://o.imgac.net/receita/omelete-de-espinafre-com-queijo-35188.jpg"
+    },
+    "PanquecasBanana": {
+      "Nome": "Panquecas de Banana",
+      "Descricao": "Deliciosas panquecas feitas com bananas maduras.",
+      "Ingredientes": "bananas maduras, ovos, farinha de trigo, leite, açúcar, fermento em pó",
+      "Modo_preparo": "1. Em uma tigela, amasse as bananas maduras até obter uma consistência homogênea.\n2. Adicione os ovos, a farinha de trigo, o leite, o açúcar e o fermento em pó à tigela, misturando bem todos os ingredientes.\n3. Aqueça uma frigideira antiaderente em fogo médio.\n4. Despeje porções da massa na frigideira quente e cozinhe até que bolhas se formem na superfície.\n5. Vire as panquecas e cozinhe do outro lado até dourarem.\n6. Repita o processo até terminar toda a massa.\n7. Sirva as panquecas quentes acompanhadas de mel, frutas ou outro acompanhamento de sua preferência.",
+      "Tempo_preparo": 20,
+      "image": "https://areademulher.r7.com/wp-content/uploads/2022/03/panqueca-de-banana-receita-doce-deliciosa-e-rapida-1-1200x900.jpg"
+    },
+    "SmoothieFrutas": {
+      "Nome": "Smoothie de Frutas",
+      "Descricao": "Um refrescante smoothie feito com morangos, banana, iogurte natural e suco de laranja.",
+      "Ingredientes": "morangos, banana, iogurte natural, suco de laranja",
+      "Modo_preparo": "1. No liquidificador, adicione os morangos, a banana em rodelas, o iogurte natural e o suco de laranja.\n2. Bata todos os ingredientes até obter uma consistência cremosa e homogênea.\n3. Se desejar, adicione gelo para deixar o smoothie mais refrescante.\n4. Despeje o smoothie em copos e sirva imediatamente.",
+      "Tempo_preparo": 10,
+      "image": "https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg"
+    },
+    "TorradasAbacateOvo": {
+      "Nome": "Torradas com Abacate e Ovo",
+      "Descricao": "Torradas crocantes cobertas com abacate amassado e ovo cozido.",
+      "Ingredientes": "pão integral, abacate, ovos, sal, pimenta, suco de limão",
+      "Modo_preparo": "1. Toste o pão até ficar crocante.\n2. Em uma tigela, amasse o abacate com sal, pimenta e suco de limão até obter uma pasta.\n3. Cozinhe os ovos de acordo com sua preferência (cozidos, poché, mexidos).\n4. Espalhe a pasta de abacate sobre as torradas.\n5. Coloque os ovos cozidos por cima.\n6. Tempere com sal, pimenta e temperos adicionais, se desejar.\n7. Sirva as torradas de abacate e ovo imediatamente.",
+      "Tempo_preparo": 15,
+      "image": "https://static1.minhavida.com.br/recipes/26/78/5f/3b/avocado-toast-com-ovo-orig-1.jpg"
+    },
+    "MingauAveiaFrutas": {
+      "Nome": "Mingau de Aveia com Frutas",
+      "Descricao": "Um mingau de aveia cremoso servido com frutas frescas e mel.",
+      "Ingredientes": "aveia em flocos, leite, frutas picadas, mel",
+      "Modo_preparo": "1. Em uma panela, adicione a aveia em flocos e o leite.\n2. Cozinhe em fogo médio, mexendo sempre, até a aveia absorver o líquido e o mingau engrossar.\n3. Transfira o mingau para tigelas individuais.\n4. Decore com as frutas picadas por cima, como banana, morangos, blueberries, entre outras.\n5. Regue com mel ou outro adoçante natural de sua preferência.\n6. Sirva o mingau de aveia ainda quente.",
+      "Tempo_preparo": 15,
+      "image": "https://blog.gsuplementos.com.br/wp-content/uploads/2022/03/iStock-908182132.jpg"
+    },
+    "Bruaca": {
+      "Nome": "Bruaca Cearense",
+      "Descricao": "Receita de Bruaca Cearense deliciosa feita com Leite Líquido NINHO Forti+ Integral, açúcar, farinha de trigo e ovos",
+      "Ingredientes": "meia xícara (chá) de açúcar refinado \nmeia xícara (chá) de Leite Líquido NINHO® Forti+ Integral \n2 ovos \n1 pitada de sal \n1 xícara (chá) de farinha de trigo",
+      "Modo_preparo": "1.  Em um recipiente, misture muito bem o açúcar, o Leite Líquido NINHO Forti+ Integral, os ovos e o sal. Em seguida, adicione a farinha de trigo e incorpore. \n2.  Em uma frigideira antiaderente aquecida, despeje uma parte da massa com a ajuda de uma concha, bem no centro, para que a massa se espalhe e forme um disco como uma panqueca. \n3.  Deixe dourar de um lado por completo e vire-a para que doure do outro. \n4.  Retire e repita o processo até terminar com a massa. \n5.  Sirva a Bruaca Cearense com calda de chocolate, mel ou geleia.",
+      "Tempo_preparo": 30,
+      "image": "https://cdn0.tudoreceitas.com/pt/posts/1/4/7/bruaca_cearense_7741_orig.jpg"
+    },
+    "PãoLeite_Moça": {
+      "Nome": "Pão de Leite Moça",
+      "Descricao": "Receita de Pão de Leite Moça fofinho feito com Leite MOÇA, fermento biológico seco, ovos, farinha de trigo e manteiga sem sal",
+      "Ingredientes": "500g de farinha de trigo \n1 pacote de fermento biológico seco (10g) \n1 pitada de sal \n2 ovos \n1 Leite MOÇA® (lata ou caixinha) 395 g \n50g de manteiga sem sal derretida \nmeia xícara (chá) de açúcar refinado \nmeia xícara (chá) de água",
+      "Modo_preparo": "1.  Em um recipiente grande, misture a farinha, o fermento e o sal.\r\n\r\n2.  Em outro recipiente, misture os ovos, o Leite MOÇA, a manteiga derretida e o açúcar. Adicione essa mistura à primeira, de ingredientes secos, e mexa bem.\r\n\r\n3.  Adicione a água aos poucos e amasse, sovando, até obter uma massa lisa e homogênea. Cubra com um pano de prato e deixe a massa descansar por cerca de 1 hora.\r\n\r\n4.  Modele a massa em um formato de pão e coloque em uma forma de bolo inglês grande untada com manteiga. Deixe crescer novamente por cerca de 30 minutos, coberta com o pano.\r\n\r\n5.  Leve ao forno médio (180ºC), preaquecido, e asse o pão por cerca de 30 a 40 minutos, ou até que esteja dourado e assado por completo.\r\n\r\n6.  Retire do forno e deixe esfriar por alguns minutos antes de servir.",
+      "Tempo_preparo": 200,
+      "image": "https://www.receitasagora.com.br/wp-content/uploads/2020/01/receita-de-pao-de-leite-condensado.jpg"
+    },
+    "PanquecaVerde": {
+      "Nome": "Panqueca Verde com Frango Cremoso",
+      "Descricao": "Receita de Panqueca Verde com Frango Cremoso deliciosa feita com Leite Líquido MOLICO Desnatado, Farelo de Aveia NESTLÉ, NESTLÉ Creme de Leite Levíssimo, espinafre, molho de tomate natural e manjericão",
+      "Ingredientes": "2 ovos\r\n180 ml de Leite Líquido MOLICO® Desnatado\r\nmeia xícara (chá) de Farelo de Aveia NESTLÉ®\r\n2 xícaras (chá) de folhas de espinafre\r\n1 pitada de sal\r\n1 pitada de pimenta-do-reino\r\nRecheio\r\n3 colheres (sopa) de azeite\r\n2 dentes de alho cortados em lâminas\r\n1 cebola picada em cubos\r\n1 xícara e meia (chá) de frango cozido e desfiado\r\nmeia xícara (chá) de tomate picado\r\n1 colher (chá) de sal\r\n1 colher (chá) de pimenta-do-reino\r\n1 caixinha de NESTLÉ® Creme de Leite Levíssimo\r\n2 colheres (sopa) de salsa picada\r\nMolho\r\n1 kg e meio de tomates maduros\r\n2 colheres (sopa) de azeite\r\n1 cebola média picada\r\n4 dentes de alho picados\r\n1 colher (chá) de sal\r\n1 colher (chá) de pimenta-do-reino\r\n2 colheres (sopa) de folhas de manjericão fresco\r\nMontagem\r\n3 colheres (sopa) de queijo parmesão ralado para finalizar",
+      "Modo_preparo": "Massa\r\n\r\n1.  Em um liquidificador, coloque os ovos, o Leite Líquido MOLICO Desnatado, o Farelo de Aveia NESTLÉ, o sal e a pimenta-do-reino e bata por cerca de 3 minutos.\r\n\r\n2.  Acrescente as folhas de espinafre e bata até atingir uma massa homogênea. Reserve.\r\n\r\n3.  Em uma frigideira antiaderente, despeje um pouco da massa até preencher o fundo da frigideira e deixe-a cozinhar em fogo baixo até começar a formar bolhas na superfície.\r\n\r\n4.  Vire a massa com cuidado e deixe o outro lado dourar.\r\n\r\n5.  Repita o processo até a massa acabar e reserve.\r\nRecheio\r\n\r\n6.  Em uma panela, aqueça o azeite de oliva. Em seguida, acrescente a cebola, o alho e refogue até murchar e dourar.\r\n\r\n7.  Adicione o frango cozido desfiado e o tomate em cubos e em seguida o sal e a pimenta-do-reino.\r\n\r\n8.  Quando todos os ingredientes estiverem refogados e incorporados, acrescente o creme de leite e mexa bem.\r\n\r\n9.  Desligue o fogo e, por fim, adicione a salsa picada.\r\nMolho\r\n\r\n10.  Lave os tomates e corte-os em pedaços pequenos. Reserve.\r\n\r\n11.  Em uma panela grande, aqueça o azeite de oliva em fogo médio. Adicione a cebola picada e refogue por cerca de 5 minutos até que esteja transparente. Adicione o alho picado e refogue novamente.\r\n\r\n12.  Adicione os tomates picados à panela e tempere com o sal e a pimenta-do-reino. Misture bem e deixe cozinhar por cerca de 30 minutos, mexendo ocasionalmente, até que os tomates se desmanchem e formem um molho.\r\n\r\n13.  Deixe o molho amornar por alguns minutos e, em seguida, bata-o no liquidificador até obter uma consistência suave\r\n\r\n14.  Adicione as folhas de manjericão fresco ao molho e misture bem.\r\nMontagem\r\n\r\n15.  Coloque a massa sobre uma superfície plana, adicione o frango cremoso em um dos lados e enrole a panqueca.\r\n\r\n16.  Repita o processo até a massa e o recheio acabarem.\r\n\r\n17.  Em um recipiente refratário retangular, forre o fundo com o molho de tomate caseiro.\r\n\r\n18.  Disponha as panquecas no refratário sobre o molho e, em seguida, coloque mais molho por cima.\r\n\r\n19.  Finalize com queijo parmesão e leve ao forno para gratinar.\r\n\r\n20.  Sirva a seguir.",
+      "Tempo_preparo": 105,
+      "image": "https://octoshop.sfo2.digitaloceanspaces.com/lojas/clubfitlife/uploads_produto/panqueca-integral-verde-de-frango-ao-molho-pomodoro-5-60f9b6049a0a7.jpg"
+    },
+    "CremeNozes": {
+      "Nome": "Creme de Nozes",
+      "Descricao": "Receita de Creme de Nozes sofisticado feito com Leite MOÇA, NESCAU, Leite Líquido NINHO Forti+ Integral, ovos e nozes",
+      "Ingredientes": "Creme\r\n1 Leite MOÇA® (lata ou caixinha) 395 g\r\n2 vezes a medida (da lata) de Leite Líquido NINHO® Forti+ Integral\r\n5 gemas\r\n2 colheres (sopa) de NESCAU®\r\n200g de nozes moídas\r\nCobertura\r\n200g de nozes moídas\r\n1 xícara (chá) de açúcar refinado\r\n5 claras\r\n1 colher (chá) de essência de baunilha",
+      "Modo_preparo": "Creme\r\n\r\n1.  Em uma panela, acrescente o Leite MOÇA, o Leite Líquido NINHO Forti+ Integral, as gemas e o NESCAU e leve ao fogo baixo, mexendo sempre até engrossar.\r\n\r\n2.  Retire do fogo e junte as nozes moídas (reserve um pouco para a decoração).\r\n\r\n3.  Despeje em taças individuais.\r\nCobertura\r\n\r\n4.  Em uma panela, acrescente o açúcar e a água e leve ao fogo, mexendo bem até dissolver.\r\n\r\n5.  Deixe ferver em fogo baixo sem mexer, até a calda ficar em ponto de fio, por cerca de 15 minutos.\r\n\r\n6.  Retire e deixe amornar.\r\n\r\n7.  Em um recipiente, bata com a ajuda da batedeira as claras em neve.\r\n\r\n8.  Junte nas claras, aos poucos, a baunilha e a calda morna, batendo sempre até ficar bem incorporada.\r\n\r\n9.  Coloque nas taças sobre o creme e decore com as nozes moídas que ficaram reservadas.",
+      "Tempo_preparo": 40,
+      "image": "https://blog.biglar.com.br/wp-content/uploads/2022/08/3.jpeg"
+    },
+    "CappuccinoCaseiro": {
+      "Nome": "Cappuccino caseiro",
+      "Descricao": "Desfrute de um momento de aconchego e indulgência com nosso delicioso Capuccino Caseiro. Feito com ingredientes cuidadosamente selecionados, este capuccino proporciona uma combinação perfeita de café encorpado, leite cremoso e um toque sutil de cacau.",
+      "Ingredientes": "1 xícara (chá) de café solúvel\r\n3 xícaras (chá) de leite em pó\r\n1 xícara (chá) de chocolate em pó\r\n1 xícara (chá) de açúcar\r\n1 colher (sopa) de canela em pó\r\n1 colher (sopa) de bicarbonato em pó",
+      "Modo_preparo": "Em uma tigela, amasse o café solúvel com um amassador de batata ou colher.\r\n\r\nAdicione o leite em pó, o chocolate, o açúcar, a canela, o bicarbonato e misture. Transfira para potes com tampa e conserve por até 2 meses.\r\n\r\nPara preparar, coloque de 2 a 3 colheres (sopa) do cappuccino em uma xícara com 250ml de água quente e misture até dissolver. Sirva em seguida.",
+      "Tempo_preparo": 10,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/08/cappuccino-caseiro-como-fazer.jpg"
+    },
+    "Bolofuba": {
+      "Nome": "Bolo de fubá cremoso com goiabada",
+      "Descricao": "Deleite-se com o sabor irresistível do nosso Bolo de Fubá Cremoso com Goiabada. Essa receita tradicional traz uma combinação perfeita entre a maciez do fubá e a doçura intensa da goiabada derretida, resultando em uma explosão de sabores a cada mordida.",
+      "Ingredientes": "4 ovos\r\n3 e 1/2 xícaras (chá) de leite\r\n2 xícaras (chá) de açúcar\r\n1 xícara (chá) de farinha de trigo\r\n4 colheres (sopa) de manteiga\r\n1 e 1/2 xícara (chá) de queijo parmesão ralado\r\n2 e 1/2 xícara (chá) de fubá\r\n1 colher (sopa) de fermento em pó\r\nMargarina e farinha de trigo para untar. Cobertura\r\n1 xícara (chá) de goiabada em cubos\r\n4 colheres (sopa) de água.",
+      "Modo_preparo": "No liquidificador, bata os ovos, o leite, o açúcar, a farinha, a manteiga e o parmesão até ficar homogêneo. Despeje em uma tigela e misture o fubá e o fermento com uma colher. Transfira para uma fôrma retangular média, untada e enfarinhada, e leve ao forno médio, preaquecido, por 30 minutos ou até firmar e dourar. Retire e deixe amornar. Para a cobertura, leve a goiabada e a água ao fogo baixo até dissolver e formar uma calda. Desligue, deixe amornar e espalhe sobre o bolo. Corte em pedaços e sirva em seguida.",
+      "Tempo_preparo": 50,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/08/bolo-fuba-cremoso-goiabada.jpg"
+    },
+    "PanquecaAmericana": {
+      "Nome": "Panqueca americana recheada",
+      "Descricao": "Apresentamos a você a irresistível Panqueca Americana Recheada, uma deliciosa combinação entre a maciez das panquecas americanas e a surpresa de um recheio delicioso. Essa receita é perfeita para um café da manhã ou brunch especial, proporcionando um sabor e uma textura incríveis a cada garfada.",
+      "Ingredientes": "1 e 1/2 xícara (chá) de farinha de trigo\r\n1 colher (café) de fermento em pó\r\n1 colher (café) de açúcar\r\n1 e 1/4 de xícara (chá) de leite\r\n1 ovo\r\n3 colheres (sopa) de manteiga derretida\r\n2/3 de xícara (chá) de Nutella®\r\nNutella® e morangos para decorar.",
+      "Modo_preparo": "Em uma tigela, misture a farinha, o fermento, o açúcar, o leite, o ovo e a manteiga até formar uma massa homogênea. Aqueça uma frigideira antiaderente, em fogo médio, e coloque uma concha pequena da massa, espalhando com uma colher e girando para espalhar. Coloque uma colher da Nutella®, mais um pouco de massa e frite por 3 minutos ou até firmar. Vire a massa com uma espátula e deixe dourar do outro lado. Retire e repita o procedimento com a massa e a Nutella® restantes. Desligue, transfira para um prato e sirva decorado com Nutella® e morangos.",
+      "Tempo_preparo": 30,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/08/panqueca-americana-recheada-1.jpg"
+    }
+  }
+}

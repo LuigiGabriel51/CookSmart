@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CookSmart.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CookSmart" xmlns:View="clr-namespace:CookSmart.View" xmlns:Fonts="clr-namespace:CookSmart.Models"
+    xmlns:ViewCategorias="clr-namespace:CookSmart.View.PagesCategoria"
+    Shell.FlyoutBehavior="Flyout" >
+
+
+    <FlyoutItem Title="Home Page">
+        <ShellContent Title="HomePage"
+                    ContentTemplate="{DataTemplate View:HomePage}"
+                    Route="HomePage" />
+
+
+    </FlyoutItem>
+
+    <Tab Shell.FlyoutBehavior="Flyout" Route="TopCategorias" Title="Top Categorias">
+        <ShellContent 
+            Title="Drinks e Coquetéis"
+            ContentTemplate="{DataTemplate ViewCategorias:PageDrinks}"
+            Route="PageDrinks" />
+        <ShellContent 
+            Title="Almoços e Jantares"
+            ContentTemplate="{DataTemplate ViewCategorias:PageAlmoco}"
+            Route="PageAlmoco" />
+        <ShellContent 
+            Title="Café da Manhã e Brunc"
+            ContentTemplate="{DataTemplate ViewCategorias:PageCafe}"
+            Route="PageCafe" />
+        <ShellContent 
+            Title="Aperitivos e Petiscos"
+            ContentTemplate="{DataTemplate ViewCategorias:PageAperitivo}"
+            Route="PageAperitivo" />
+        <ShellContent 
+            Title="Sobremesas e Doces"
+            ContentTemplate="{DataTemplate ViewCategorias:PageSobremesa}"
+            Route="PageSobremesa" />
+        <ShellContent 
+            Title="Pratos Vegetarianos e Veganos"
+            ContentTemplate="{DataTemplate ViewCategorias:PageSalada}"
+            Route="PageSalada" />
+    </Tab>
+</Shell>

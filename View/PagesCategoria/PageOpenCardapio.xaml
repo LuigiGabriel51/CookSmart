@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CookSmart.View.PagesCategoria.PageOpenCardapio"
+             xmlns:model="clr-namespace:CookSmart.Models" >
+    <ScrollView BackgroundColor="Aqua">
+        <VerticalStackLayout Spacing="30" Padding="30">
+            <Label Text="{Binding Nome}" HorizontalOptions="Center" FontSize="25" FontAttributes="Bold" WidthRequest="250" TextColor="Black"/>
+            <Image  HeightRequest="170" WidthRequest="310" >
+                <Image.Source>
+                    <UriImageSource Uri="{Binding image}" CacheValidity="30:00:00:00"/>
+                </Image.Source>
+            </Image>
+
+            <Label Text="Tempo de preparo de Preparo: " FontSize="10" FontAttributes="Bold"/>
+            <HorizontalStackLayout Spacing="0" Margin="0,-25,0,0">
+                <Label Text="{Static model:IconFont.Clock}" FontFamily="fa-solid" TextColor="Black" FontSize="25" 
+                                   HorizontalOptions="End" Margin="10,0,10,0" />
+                <Label Text="{Binding Tempo_preparo}" TextColor="Black"/>
+                <Label Text=" min" TextColor="Black"/>
+            </HorizontalStackLayout>
+            <Label Text="Descrição: " FontSize="16" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="{Binding Descricao}" FontSize="10" HorizontalTextAlignment="Center" TextColor="Black"/>
+            <Label Text="Ingredientes: " FontSize="16" FontAttributes="Bold"/>
+            <Label Text="{Binding Ingredientes}" WidthRequest="300" HorizontalOptions="Start" HorizontalTextAlignment="Start"
+                                   FontSize="12" TextColor="Black"/>
+            <Label Text="Modo de Preparo: " FontSize="16" FontAttributes="Bold"/>
+            <Label Text="{Binding Modo_preparo}" WidthRequest="300" HorizontalOptions="Start" HorizontalTextAlignment="Start" 
+                                   FontSize="12" TextColor="Black"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
