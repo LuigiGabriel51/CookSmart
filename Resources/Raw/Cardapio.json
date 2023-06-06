@@ -283,5 +283,97 @@
       "Tempo_preparo": 30,
       "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/08/panqueca-americana-recheada-1.jpg"
     }
+  },
+
+
+  "CardapioPetiscos": {
+    "BolinhoBacalhau": {
+      "Nome": "Bolinho de Bacalhau",
+      "Descricao": "Delicioso bolinho de bacalhau crocante por fora e macio por dentro.",
+      "Ingredientes": "500g de bacalhau dessalgado e desfiado, 2 batatas grandes cozidas e amassadas, 1 cebola pequena picada, 2 dentes de alho picados, 1/4 de xícara de salsa picada, Sal e pimenta a gosto, Óleo para fritar",
+      "Modo_preparo": "Em uma tigela, misture o bacalhau desfiado com as batatas amassadas.\nAdicione a cebola, o alho, a salsa, o sal e a pimenta. Misture bem.\nModele os bolinhos com as mãos e frite-os em óleo quente até dourarem.\nRetire do óleo, escorra em papel absorvente e sirva.",
+      "Tempo_preparo": 40,
+      "image": "https://www.saborbrasil.it/wp-content/uploads/2021/06/Bolinho-bacalhau.jpg"
+    },
+    "Bruschetta": {
+      "Nome": "Bruschetta",
+      "Descricao": "Pão italiano crocante coberto com tomates frescos, alho e manjericão.",
+      "Ingredientes": "4 fatias de pão italiano, 2 tomates maduros picados, 2 dentes de alho picados, Folhas de manjericão, Azeite de oliva, Sal e pimenta a gosto",
+      "Modo_preparo": "Pré-aqueça o forno a 180°C.\nRegue as fatias de pão italiano com azeite de oliva e leve ao forno por cerca de 5 minutos, até ficarem crocantes.\nEnquanto isso, em uma tigela, misture os tomates picados, o alho, o manjericão, o sal e a pimenta.\nRetire as fatias de pão do forno e cubra cada uma com a mistura de tomate.\nRegue com mais azeite de oliva e leve ao forno por mais 5 minutos.\nRetire do forno, decore com folhas de manjericão e sirva.",
+      "Tempo_preparo": 15,
+      "image": "https://www.sabornamesa.com.br/media/k2/items/cache/2cf3de1421350014af841348e8a1b0fb_XL.jpg"
+    },
+    "CoxinhaFrango": {
+      "Nome": "Coxinha de Frango",
+      "Descricao": "Deliciosa coxinha de frango com massa macia e recheio suculento.",
+      "Ingredientes": "2 xícaras de frango cozido e desfiado, 2 xícaras de caldo de frango, 3 xícaras de farinha de trigo, 1 colher de sopa de manteiga, 1 cebola picada, 2 dentes de alho picados, Sal e pimenta a gosto, Óleo para fritar",
+      "Modo_preparo": "Em uma panela, aqueça a manteiga e refogue a cebola e o alho.\nAdicione o frango desfiado, o caldo de frango, o sal e a pimenta. Cozinhe por alguns minutos.\nAcrescente a farinha de trigo aos poucos, mexendo sempre, até obter uma massa consistente.\nRetire do fogo e deixe a massa esfriar.\nCom as mãos untadas, modele as coxinhas, recheando-as com o frango desfiado.\nFrite as coxinhas em óleo quente até dourarem.\nRetire do óleo, escorra em papel absorvente e sirva.",
+      "Tempo_preparo": 60,
+      "image": "https://receitinhas.com.br/wp-content/uploads/2017/12/coxinha-de-frango-com-queijo-2.jpg"
+    },
+    "Guacamole": {
+      "Nome": "Guacamole",
+      "Descricao": "Deliciosa pasta de abacate temperada com ingredientes frescos.",
+      "Ingredientes": "2 abacates maduros, 1 tomate picado, 1 cebola pequena picada, 1 dente de alho picado, Suco de 1 limão, Coentro picado a gosto, Sal e pimenta a gosto",
+      "Modo_preparo": "Corte os abacates ao meio, remova o caroço e coloque a polpa em uma tigela.\nAmasse os abacates com um garfo até obter uma consistência cremosa.\nAdicione o tomate, a cebola, o alho, o suco de limão, o coentro, o sal e a pimenta. Misture bem.\nLeve à geladeira por 30 minutos antes de servir.\nSirva com nachos, torradas ou utilize como acompanhamento.",
+      "Tempo_preparo": 15,
+      "image": "https://assets.unileversolutions.com/recipes-v2/36456.jpg"
+    },
+    "Espetinho Caprese": {
+      "Nome": "Espetinho Caprese",
+      "Descricao": "Deliciosos espetinhos de tomate, mussarela e manjericão.",
+      "Ingredientes": "Tomates-cereja, Bolinhas de mussarela de búfala, Folhas de manjericão, Azeite de oliva, Sal e pimenta a gosto",
+      "Modo_preparo": "Espete um tomate-cereja, uma bolinha de mussarela e uma folha de manjericão em cada palito.\nRegue os espetinhos com azeite de oliva, sal e pimenta a gosto.\nLeve à geladeira por cerca de 30 minutos antes de servir.\nSirva como petisco ou entrada em ocasiões especiais.",
+      "Tempo_preparo": 10,
+      "image": "https://assets.unileversolutions.com/recipes-v2/215677.jpg"
+    },
+    "Batata Frita Crocante": {
+      "Nome": "Batata Frita Crocante",
+      "Descricao": "Deliciosas batatas fritas douradas e crocantes.",
+      "Ingredientes": "Batatas, Óleo vegetal, Sal a gosto",
+      "Modo_preparo": "Descasque as batatas e corte-as em palitos.\nLave as batatas em água corrente para remover o excesso de amido e seque-as bem com papel toalha.\nAqueça óleo vegetal em uma panela funda ou fritadeira.\nFrite as batatas em pequenas porções por cerca de 5 a 7 minutos, ou até ficarem douradas e crocantes.\nRetire as batatas fritas com uma escumadeira e escorra o excesso de óleo em papel absorvente.\nTempere com sal a gosto e sirva quente.",
+      "Tempo_preparo": 30,
+      "image": "https://www.sabornamesa.com.br/media/k2/items/cache/377829b055e89e3afb894e7528a10996_XL.jpg"
+    },
+    "Pão de Alho": {
+      "Nome": "Pão de Alho",
+      "Descricao": "Delicioso pão recheado com pasta de alho e ervas.",
+      "Ingredientes": "4 pães franceses, 4 dentes de alho picados, 4 colheres de sopa de manteiga derretida, Salsinha picada a gosto, Queijo parmesão ralado a gosto, Sal a gosto",
+      "Modo_preparo": "Preaqueça o forno a 180°C.\nCorte os pães ao meio no sentido do comprimento, formando uma espécie de \"canoa\".\nEm uma tigela, misture o alho picado, a manteiga derretida, a salsinha e o sal.\nPasse a pasta de alho e ervas dentro dos pães, cobrindo bem o miolo.\nPolvilhe com queijo parmesão ralado.\nColoque os pães em uma assadeira e leve ao forno por cerca de 15 minutos, ou até ficarem dourados e crocantes.\nRetire do forno, corte em fatias e sirva quente.",
+      "Tempo_preparo": 20,
+      "image": "https://cooknenjoy.com/wp-content/uploads/2017/10/pao-de-alho-01.jpg"
+    },
+    "Torta de Frango": {
+      "Nome": "Torta de Frango",
+      "Descricao": "Deliciosa torta recheada com frango desfiado e temperos.",
+      "Ingredientes": "2 xícaras de frango cozido e desfiado, 1 cebola picada, 2 dentes de alho picados, 1 cenoura ralada, 1 lata de milho verde, 1/2 xícara de azeitonas verdes picadas, 1/2 xícara de salsinha picada, 2 colheres de sopa de óleo, 3 ovos, 1 xícara de leite, 1 xícara de farinha de trigo, 1 colher de sopa de fermento em pó, Sal e pimenta a gosto",
+      "Modo_preparo": "Preaqueça o forno a 180°C.\nEm uma panela, aqueça o óleo e refogue a cebola e o alho até dourarem.\nAdicione o frango desfiado, a cenoura ralada, o milho verde, as azeitonas e a salsinha. Tempere com sal e pimenta a gosto. Cozinhe por alguns minutos.\nEm uma tigela, bata os ovos com o leite. Adicione a farinha de trigo e o fermento em pó, misturando bem.\nEm uma forma untada, despeje metade da massa e espalhe o recheio de frango por cima.\nCubra com o restante da massa.\nLeve ao forno por cerca de 30 a 40 minutos, ou até a torta dourar e ficar firme.\nRetire do forno, deixe esfriar um pouco e sirva.",
+      "Tempo_preparo": 60,
+      "image": "https://static.itdg.com.br/images/1200-675/9fdb7c8f39a0159c559e36e665673301/317634-original.jpg"
+    },
+    "Sushi": {
+      "Nome": "Sushi",
+      "Descricao": "Deliciosos rolinhos de arroz recheados com peixe, legumes e nori.",
+      "Ingredientes": "2 xícaras de arroz para sushi, 4 xícaras de água, 3 colheres de sopa de vinagre de arroz, 1 colher de sopa de açúcar, 1 colher de chá de sal, Peixe (salmão, atum, etc.) cortado em tiras, Legumes (pepino, cenoura, abacate, etc.) cortados em tiras, Nori (folhas de algas marinhas), Molho de soja e wasabi para servir",
+      "Modo_preparo": "Lave o arroz em água corrente até que a água fique clara.\nEm uma panela, coloque o arroz e a água e leve ao fogo alto.\nQuando começar a ferver, reduza o fogo para baixo e cozinhe por cerca de 15 minutos, ou até que a água seja absorvida e o arroz esteja macio.\nEm uma tigela pequena, misture o vinagre de arroz, o açúcar e o sal.\nTransfira o arroz para uma tigela grande e regue com a mistura de vinagre, mexendo delicadamente para incorporar.\nDeixe o arroz esfriar.\nColoque uma folha de nori em uma esteira de sushi.\nEspalhe uma camada fina de arroz sobre a nori, deixando uma borda livre na parte de cima.\nColoque o peixe e os legumes no centro do arroz.\nEnrole a esteira de sushi, pressionando levemente para firmar o rolinho.\nCorte em fatias e sirva com molho de soja e wasabi.",
+      "Tempo_preparo": 60,
+      "image": "https://www.sabornamesa.com.br/media/k2/items/cache/5031e263a4a258791d6306b2d3d9dbf6_XL.jpg"
+    },
+    "Pão de Queijo": {
+      "Nome": "Pão de Queijo",
+      "Descricao": "Deliciosos pãezinhos de queijo macios e saborosos.",
+      "Ingredientes": "3 xícaras de polvilho doce, 1 xícara de leite, 1/2 xícara de óleo vegetal, 1 colher de chá de sal, 2 ovos, 2 xícaras de queijo minas padrão ralado",
+      "Modo_preparo": "Preaqueça o forno a 180°C.\nEm uma panela, aqueça o leite e o óleo até ferver.\nEm uma tigela, coloque o polvilho doce e despeje a mistura de leite e óleo sobre ele.\nMexa bem até obter uma massa homogênea.\nAdicione o sal e os ovos, um de cada vez, misturando bem.\nAcrescente o queijo ralado e misture até ficar bem incorporado.\nUnte as mãos com óleo e faça bolinhas com a massa, do tamanho desejado.\nColoque as bolinhas em uma assadeira untada ou forrada com papel manteiga.\nLeve ao forno por aproximadamente 25 minutos, ou até que os pãezinhos estejam dourados.\nRetire do forno e sirva quente.",
+      "Tempo_preparo": 40,
+      "image": "https://vovopalmirinha.com.br/wp-content/uploads/2019/06/pao-de-queijo.jpg"
+    },
+    "Quibe Frito Caseiro": {
+      "Nome": "Quibe Frito Caseiro",
+      "Descricao": "Deliciosos quibes fritos, crocantes por fora e macios por dentro.",
+      "Ingredientes": "250g de gérmen de trigo, 500g de carne moída, 3 dentes de alho, Hortelã a gosto, 1 cebola, 1 colher de sobremesa de sal, Aji-no-moto a gosto, Pimenta-do-reino branca a gosto, Tempero baiano a gosto",
+      "Modo_preparo": "Em uma tigela, coloque o gérmen de trigo e cubra com água. Deixe descansar por 20 minutos.\nDepois do tempo necessário, retire a água e adicione a carne moída.\nAcrescente a cebola ralada, o sal, a hortelã picadinha, o alho amassado, o aji-no-moto, a pimenta e o tempero baiano.\nMisture até que os ingredientes fiquem bem incorporados e, usando as mãos, molde os quibes.\nLeve para fritar em óleo bem quente.\nEstá pronto! Sirva e aproveite.",
+      "Tempo_preparo": 50,
+      "image": "https://cdn0.tudoreceitas.com/pt/posts/4/5/2/kibe_frito_tradicional_1254_orig.jpg"
+    }
   }
 }

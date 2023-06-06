@@ -69,6 +69,25 @@ namespace CookSmart.Models
             return cafe;
         }
 
+        public List<ModelCardapios> CardapioPetiscos()
+        {
+            var jObject = JObject.Parse(Cardapios);
+            var Cardapiopetiscos = jObject["CardapioPetiscos"];
+            List<ModelCardapios> Petiscos = new List<ModelCardapios>();
+            foreach (var i in Cardapiopetiscos)
+            {
+                foreach (var j in i)
+                {
+                    ModelCardapios lista = j.ToObject<ModelCardapios>();
+                    Petiscos.Add(lista);
+                }
+            }
+            Console.WriteLine(Petiscos);
+            return Petiscos;
+        }
+
+
+
         async Task LoadMauiAsset()
         {
             using var stream = await FileSystem.OpenAppPackageFileAsync("Cardapio.json");
@@ -76,6 +95,8 @@ namespace CookSmart.Models
 
             Cardapios = reader.ReadToEnd();
         }
+
+
     }
     public class Modelo
     {

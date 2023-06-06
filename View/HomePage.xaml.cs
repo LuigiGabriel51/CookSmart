@@ -94,19 +94,11 @@ public partial class HomePage : ContentPage
 
     private void Button_Clicked_2(object sender, EventArgs e)
     {
-        List<ModelCardapios> recomendacaoDrink = ConvertCardapio.CardapioDrinks();
-        List<ModelCardapios> recomendacaoAlmoco = ConvertCardapio.CardapioAlmoco();
-        List<ModelCardapios> recomendacaoCafe = ConvertCardapio.CardapioCafe();
-
-        Random random = new Random();
-        int escolhidoDrink = random.Next(11);
-        int escolhidoAlmoco = random.Next(8);
-        int escolhidoCafe = random.Next(12);
-
-        var recomendadoDrink = recomendacaoDrink[escolhidoDrink];
-        var recomendadoAlmoco = recomendacaoAlmoco[escolhidoAlmoco];
-        var recomendadoCafe = recomendacaoCafe[escolhidoCafe];
-        var novaPagina = new PageVerMais("Recomendações Diárias", recomendadoDrink, recomendadoAlmoco, recomendadoCafe);
-        Navigation.PushAsync(novaPagina);
+        Random random = new();
+            var recomendadoDrink = ConvertCardapio.CardapioDrinks()[random.Next(11)];
+            var recomendadoAlmoco = ConvertCardapio.CardapioAlmoco()[random.Next(8)];
+            var recomendadoCafe = ConvertCardapio.CardapioCafe()[random.Next(12)];
+            var novaPagina = new PageVerMais("Recomendações por Categoria", recomendadoDrink, recomendadoAlmoco, recomendadoCafe);
+            Navigation.PushAsync(novaPagina);
     }
 }

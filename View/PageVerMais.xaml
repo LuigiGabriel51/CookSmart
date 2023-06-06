@@ -9,11 +9,13 @@
                 <DataTemplate>
                     <Frame HeightRequest="600" VerticalOptions="Center" BackgroundColor="Transparent" BorderColor="AntiqueWhite" Padding="1">
                         <FlexLayout Direction="Column" JustifyContent="SpaceAround" >
-                            <Label Text="{Binding Nome}" TextColor="WhiteSmoke" HorizontalOptions="Center" FontSize="25"  
-                                   FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                            <Image Source="{Binding image}" HorizontalOptions="Center" WidthRequest="300" HeightRequest="200" Aspect="AspectFill"
+                            <Label Text="{Binding Title}" TextColor="Black" HorizontalOptions="Center" FontSize="25" 
+                                   HorizontalTextAlignment="Center" FontFamily="OpenSansSemibold"/>
+                            <Label Text="{Binding recomendados.Nome}" TextColor="WhiteSmoke" HorizontalOptions="Center" 
+                                   FontSize="20"  HorizontalTextAlignment="Center" FontFamily="OpenSansSemibold"/>
+                            <Image Source="{Binding recomendados.image}" HorizontalOptions="Center" WidthRequest="300" HeightRequest="200" Aspect="AspectFill"
                                    />
-                            <Label Text="{Binding Descricao}" TextColor="Black" HorizontalOptions="Center" FontSize="13" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding recomendados.Descricao}" TextColor="Black" HorizontalOptions="Center" FontSize="13" HorizontalTextAlignment="Center"/>
                         </FlexLayout>
                     </Frame>
                 </DataTemplate>
