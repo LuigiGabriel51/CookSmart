@@ -28,3 +28,7 @@ O CookSmart é desenvolvido utilizando as seguintes tecnologias:
 ->  Linguagem: C# e XAML (Extensible Application Markup Language).
 
 ->  FrameWork: .Net Maui (Xamarin.Forms).
+
+
+Obs: Não estou utilizando nenhuma API para receber os dados das receitas, todas que procurei eram pagas, e como esse é um projeto
+gratuito, optei por estruturar os dados internamente por um arquivo Json.
