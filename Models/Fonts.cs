@@ -8,5 +8,8 @@
         public const string Linkedin = "\uf08c";
         public const string Clock = "\uf017";
         public const string DownLeftAndUpRightToCenter = "\uf422";
+        public const string FilePen = "\uf31c";
+        public const string Pencil = "\u270f";
+        public const string FloppyDisk = "\uf0c7";
     }
 }

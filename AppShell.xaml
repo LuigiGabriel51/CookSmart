@@ -49,7 +49,12 @@
         <ShellContent Title="CookSmart"
                     ContentTemplate="{DataTemplate View:HomePage}"
                     Route="HomePage"/>
-
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Minhas Receitas" Shell.ForegroundColor="Aqua">
+        <ShellContent Title="Minhas Receitas"
+                      ContentTemplate="{DataTemplate View:PageMinhasReceitas}"
+                      Route="MinhasReceitas"/>
     </FlyoutItem>
 
     <Tab Shell.FlyoutBehavior="Flyout" Route="TopCategorias" Title="Top Categorias">

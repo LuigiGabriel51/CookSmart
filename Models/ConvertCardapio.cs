@@ -86,7 +86,22 @@ namespace CookSmart.Models
             return Petiscos;
         }
 
-
+            public List<ModelCardapios> CardapioDoces()
+        {
+            var jObject = JObject.Parse(Cardapios);
+            var SobremesaDoces = jObject["SobremesaDoces"];
+            List<ModelCardapios> Doces = new List<ModelCardapios>();
+            foreach (var i in SobremesaDoces)
+            {
+                foreach (var j in i)
+                {
+                    ModelCardapios lista = j.ToObject<ModelCardapios>();
+                    Doces.Add(lista);
+                }
+            }
+            Console.WriteLine(Doces);
+            return Doces;
+        }
 
         async Task LoadMauiAsset()
         {

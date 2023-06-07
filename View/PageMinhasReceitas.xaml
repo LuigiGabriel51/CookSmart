@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:VM="clr-namespace:CookSmart.ViewModels"
+             x:Class="CookSmart.View.PageMinhasReceitas" xmlns:model="clr-namespace:CookSmart.Models"
+             BackgroundColor="Aqua">
+    <ContentPage.BindingContext>
+        <VM:MinhasReceitasVM/>
+    </ContentPage.BindingContext>
+    <AbsoluteLayout>
+        <ScrollView BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0.5,1, 350,660" AbsoluteLayout.LayoutFlags="XProportional">
+            <StackLayout HorizontalOptions="Center">
+                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,20,0,0" FontFamily="fa-solid">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{} {0}   {1}">
+                            <Binding StringFormat="Receitas Salvas"/>
+                            <Binding StringFormat="{Static model:IconFont.FloppyDisk}" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <ListView ItemsSource="{Binding Doces}" HasUnevenRows="True" HeightRequest="650"  Margin="0,20,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Frame BackgroundColor="LightYellow">
+                                        <HorizontalStackLayout>
+                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="50"/>
+                                            <Label Text="{Binding Nome}" TextColor="Black"/>
+                                        </HorizontalStackLayout>
+                                    </Frame>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,20,0,0" FontFamily="fa-solid">
+                    <MultiBinding StringFormat="{} {0}   {1}">
+                        <Binding StringFormat="Receitas Criadas" />
+                        <Binding StringFormat="{Static model:IconFont.Pencil}"/>
+                    </MultiBinding>
+                </Label>
+                <ListView ItemsSource="{Binding Doces}" HasUnevenRows="True" HeightRequest="650"  Margin="0,20,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Frame BackgroundColor="LightYellow">
+                                        <HorizontalStackLayout>
+                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="50"/>
+                                            <Label Text="{Binding Nome}" TextColor="Black"/>
+                                        </HorizontalStackLayout>
+                                    </Frame>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        <Button WidthRequest="70" HeightRequest="70" CornerRadius="40" FontFamily="fa-solid" BackgroundColor="Aqua"
+                    AbsoluteLayout.LayoutBounds="300,1,2,100" Text="{Static model:IconFont.FilePen}"
+                    FontSize="30" AbsoluteLayout.LayoutFlags="YProportional"/>
+    </AbsoluteLayout>
+</ContentPage>

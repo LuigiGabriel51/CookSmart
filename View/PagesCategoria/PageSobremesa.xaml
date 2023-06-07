@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CookSmart.View.PagesCategoria.PageSobremesa" Title="Top Categorias">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:CookSmart.ViewModels" xmlns:model="clr-namespace:CookSmart.Models"
+             x:Class="CookSmart.View.PagesCategoria.PageSobremesa" >
+    <ContentPage.BindingContext>
+        <vm:DocesVM/>
+    </ContentPage.BindingContext>
+    <ScrollView BackgroundColor="Aqua">
+        <StackLayout Orientation="Vertical">
+            <ListView ItemsSource="{Binding Doces}" HasUnevenRows="True" SelectionMode="Single" ItemSelected="ListView_ItemSelected" 
+                      IsVisible="true" x:Name="ListDrinks">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="Transparent" Padding="10">
+                                <VerticalStackLayout BackgroundColor="Transparent" Padding="0" >
+
+                                    <HorizontalStackLayout Spacing="30">
+                                        <Image Source="{Binding  image}" HeightRequest="130" WidthRequest="150" Margin="-20,0,0,0" 
+                                               HorizontalOptions="Start" VerticalOptions="Start" Aspect="AspectFill"/>
+                                        <VerticalStackLayout Spacing="10" Margin="0,30,0,0">
+                                            <Label Text="{Binding Nome}" HorizontalOptions="Center" FontSize="20" WidthRequest="180" TextColor="Black"/>
+                                            <HorizontalStackLayout HorizontalOptions="Start">
+                                                <Label Text="{Static model:IconFont.Clock}" FontFamily="fa-solid" TextColor="Black" FontSize="25" HorizontalOptions="End" Margin="0,0,10,0"/>
+                                                <Label Text="{Binding Tempo_preparo}" TextColor="Black"/>
+                                                <Label Text=" min" TextColor="Black"/>
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                    </HorizontalStackLayout>
+                                    <Label Text="{Binding Descricao}" TextColor="Black" WidthRequest="330" FontSize="8" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" MaxLines="4"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

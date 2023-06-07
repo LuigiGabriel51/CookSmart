@@ -375,5 +375,97 @@
       "Tempo_preparo": 50,
       "image": "https://cdn0.tudoreceitas.com/pt/posts/4/5/2/kibe_frito_tradicional_1254_orig.jpg"
     }
+  },
+
+
+  "SobremesaDoces": {
+    "BoloChocolate": {
+      "Nome": "Bolo de Chocolate",
+      "Descricao": "Delicioso bolo de chocolate com cobertura cremosa.",
+      "Ingredientes": "3 xícaras de farinha de trigo, 2 xícaras de açúcar, 1 xícara de cacau em pó, 1 colher de sopa de fermento em pó, 1 colher de chá de sal, 3 ovos, 1 ½ xícara de leite, ½ xícara de óleo vegetal, 2 colheres de chá de extrato de baunilha, 1 xícara de água quente",
+      "Modo_preparo": "Preaqueça o forno a 180°C. Em uma tigela, misture a farinha, o açúcar, o cacau em pó, o fermento e o sal. Adicione os ovos, o leite, o óleo e a baunilha. Misture bem até obter uma massa homogênea. Acrescente a água quente e misture novamente. Despeje a massa em uma forma untada e leve ao forno por aproximadamente 30-35 minutos. Deixe esfriar antes de servir.",
+      "Tempo_preparo": 60,
+      "image": "https://www.receiteria.com.br/wp-content/uploads/bolo-de-chocolate-rapido-e-molhadinho.jpg"
+    },
+    "PudinLeite": {
+      "Nome": "Pudim de Leite Condensado",
+      "Descricao": "Delicioso pudim de leite condensado, com uma calda caramelizada.",
+      "Ingredientes": "1 lata de leite condensado, 2 latas de leite (utilize a lata de leite condensado como medida), 4 ovos, 1 colher de chá de essência de baunilha, 1 xícara de açúcar (para a calda)",
+      "Modo_preparo": "Em uma forma de pudim, derreta o açúcar até formar uma calda caramelizada. Em um liquidificador, bata o leite condensado, o leite, os ovos e a essência de baunilha até obter uma mistura homogênea. Despeje a mistura na forma caramelizada. Cubra com papel alumínio e leve ao forno preaquecido a 180°C em banho-maria por aproximadamente 1 hora e 30 minutos. Deixe esfriar e leve à geladeira por algumas horas antes de desenformar.",
+      "Tempo_preparo": 120,
+      "image": "https://vovopalmirinha.com.br/wp-content/uploads/2016/06/pudim-1.jpg"
+    },
+    "Brigadeiro": {
+      "Nome": "Brigadeiro",
+      "Descricao": "Tradicional doce brasileiro feito com chocolate e leite condensado.",
+      "Ingredientes": "1 lata de leite condensado, 3 colheres de sopa de chocolate em pó, 1 colher de sopa de manteiga, Granulados de chocolate (para enrolar)",
+      "Modo_preparo": "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga. Leve ao fogo baixo, mexendo sempre, até obter uma consistência cremosa que desgrude do fundo da panela. Desligue o fogo e deixe esfriar. Com as mãos untadas, faça pequenas bolinhas com a massa e passe no granulado de chocolate. Sirva em forminhas de papel.",
+      "Tempo_preparo": 30,
+      "image": "https://www.marajoaraalimentos.com.br/2018/wp-content/uploads/2020/07/349-scaled.jpg"
+    },
+    "Cheesecake": {
+      "Nome": "Cheesecake de Morango",
+      "Descricao": "Deliciosa torta de queijo com cobertura de morango.",
+      "Ingredientes": "200g de biscoito maizena, 100g de manteiga derretida, 500g de cream cheese, 1 lata de leite condensado, 1 colher de sopa de suco de limão, 200g de morangos frescos (para a cobertura), 1 xícara de açúcar (para a cobertura)",
+      "Modo_preparo": "Triture os biscoitos no liquidificador ou processador e misture com a manteiga derretida. Forre o fundo de uma forma com essa massa e leve à geladeira. Em uma tigela, bata o cream cheese, o leite condensado e o suco de limão até obter uma mistura cremosa. Despeje essa mistura sobre a massa de biscoito já fria. Leve à geladeira por pelo menos 4 horas. Para a cobertura, leve os morangos picados e o açúcar ao fogo até obter uma calda grossa. Deixe esfriar e coloque sobre o cheesecake antes de servir.",
+      "Tempo_preparo": 240,
+      "image": "https://claudia.abril.com.br/wp-content/uploads/2020/02/sobremesas-para-o-natal-cheesecake-pracc81tico-de-morangos.jpg"
+    },
+    "MouseMaracuja": {
+      "Nome": "Mousse de Maracujá",
+      "Descricao": "Refrescante mousse de maracujá com uma cobertura de polpa de maracujá.",
+      "Ingredientes": "1 lata de leite condensado, 1 lata de creme de leite, 1 xícara de suco de maracujá concentrado, Polpa de maracujá para a cobertura",
+      "Modo_preparo": "No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá até obter uma mistura homogênea. Despeje em taças individuais e leve à geladeira por pelo menos 4 horas. Antes de servir, coloque polpa de maracujá sobre cada mousse como cobertura.",
+      "Tempo_preparo": 240,
+      "image": "https://img.cybercook.com.br/receitas/478/mousse-de-maracuja-6.jpeg"
+    },
+    "Tiramisu": {
+      "Nome": "Tiramisu",
+      "Descricao": "Clássica sobremesa italiana feita com biscoitos champanhe, café e creme de queijo mascarpone.",
+      "Ingredientes": "250g de queijo mascarpone, 2 ovos, 100g de açúcar, 200ml de café forte, 200g de biscoitos champanhe, Cacau em pó para polvilhar",
+      "Modo_preparo": "Separe as gemas das claras dos ovos. Em uma tigela, bata as gemas com o açúcar até obter um creme claro e fofo. Adicione o queijo mascarpone e misture bem. Em outra tigela, bata as claras em neve e incorpore delicadamente ao creme de mascarpone. Em um recipiente, faça camadas de biscoitos champanhe embebidos no café e creme de mascarpone. Repita as camadas, finalizando com o creme. Leve à geladeira por pelo menos 4 horas. Antes de servir, polvilhe cacau em pó por cima.",
+      "Tempo_preparo": 240,
+      "image": "https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2020/05/tiramisu-Italiano.jpg"
+    },
+    "Pavê de Chocolate": {
+      "Nome": "Pavê de Chocolate",
+      "Descricao": "Delicioso pavê de chocolate com camadas de biscoito e creme.",
+      "Ingredientes": "1 pacote de biscoito maisena, 2 latas de leite condensado, 2 latas de creme de leite, 4 colheres de sopa de chocolate em pó, 1 colher de sopa de manteiga, 1 xícara de leite, Chocolate granulado para decorar",
+      "Modo_preparo": "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga. Leve ao fogo baixo, mexendo sempre, até obter um creme espesso. Desligue o fogo e acrescente o creme de leite, mexendo bem até obter um creme homogêneo. Em um refratário, faça camadas de biscoito maisena e creme, terminando com o creme. Leve à geladeira por algumas horas antes de servir. Na hora de servir, polvilhe chocolate granulado por cima.",
+      "Tempo_preparo": 180,
+      "image": "https://t2.uc.ltmcdn.com/pt/posts/0/7/1/como_fazer_pave_de_chocolate_10170_600.jpg"
+    },
+    "Torta de Limão": {
+      "Nome": "Torta de Limão",
+      "Descricao": "Refrescante torta de limão com uma cobertura de merengue.",
+      "Ingredientes": "200g de biscoito maisena, 100g de manteiga derretida, 2 latas de leite condensado, 1 xícara de suco de limão, 4 gemas, 4 claras, 4 colheres de sopa de açúcar",
+      "Modo_preparo": "Triture os biscoitos no liquidificador ou processador e misture com a manteiga derretida. Forre o fundo de uma forma com essa massa e leve à geladeira. Em uma tigela, misture o leite condensado, o suco de limão e as gemas até obter um creme homogêneo. Despeje esse creme sobre a massa de biscoito já fria. Em outra tigela, bata as claras em neve e acrescente o açúcar aos poucos, batendo até obter um merengue firme. Cubra a torta com o merengue e leve ao forno preaquecido a 180°C por aproximadamente 15 minutos ou até dourar o merengue. Deixe esfriar antes de servir.",
+      "Tempo_preparo": 120,
+      "image": "https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/dessert/image-thumb__98508__RecipeDetailsLightBox/torta-de-limao.jpg"
+    },
+    "Brownie": {
+      "Nome": "Brownie",
+      "Descricao": "Delicioso brownie de chocolate com pedaços de nozes.",
+      "Ingredientes": "200g de chocolate meio amargo, 200g de manteiga, 1 xícara de açúcar, 3 ovos, 1 colher de chá de essência de baunilha, 1 xícara de farinha de trigo, 1 xícara de nozes picadas",
+      "Modo_preparo": "Derreta o chocolate e a manteiga em banho-maria. Em uma tigela, misture o açúcar, os ovos e a essência de baunilha. Adicione o chocolate derretido e misture bem. Acrescente a farinha de trigo e as nozes picadas, misturando até ficar homogêneo. Despeje a massa em uma forma untada e leve ao forno preaquecido a 180°C por aproximadamente 25-30 minutos. O brownie deve ficar úmido por dentro. Deixe esfriar antes de cortar em quadradinhos.",
+      "Tempo_preparo": 60,
+      "image": "https://static.itdg.com.br/images/1200-630/2d5bf7e723ff64c4c9e8341ed2fa653e/brownie-super-facil.jpg"
+    },
+    "Petit Gateau": {
+      "Nome": "Petit Gateau",
+      "Descricao": "Deliciosa sobremesa com um bolinho de chocolate quente e cremoso.",
+      "Ingredientes": "100g de chocolate meio amargo, 100g de manteiga, 2 ovos, 2 gemas, 4 colheres de sopa de açúcar, 4 colheres de sopa de farinha de trigo",
+      "Modo_preparo": "Derreta o chocolate e a manteiga em banho-maria. Em uma tigela, bata os ovos, as gemas e o açúcar até obter um creme claro e fofo. Adicione a mistura de chocolate derretido e misture bem. Acrescente a farinha de trigo peneirada, misturando até ficar homogêneo. Despeje a massa em forminhas individuais untadas e leve ao forno preaquecido a 180°C por aproximadamente 8-10 minutos. O centro do bolinho deve ficar líquido. Desenforme e sirva imediatamente, acompanhado de sorvete de sua preferência.",
+      "Tempo_preparo": 30,
+      "image": "https://www.montarumnegocio.com/wp-content/uploads/2017/08/Receita-de-como-fazer-petit-gateau-para-vender.jpg"
+    },
+    "Sorvete de Morango": {
+      "Nome": "Sorvete de Morango",
+      "Descricao": "Refrescante sorvete de morango feito com frutas frescas.",
+      "Ingredientes": "500g de morangos frescos, 1 lata de leite condensado, 1 lata de creme de leite, 1 colher de chá de essência de baunilha",
+      "Modo_preparo": "Lave e corte os morangos em pedaços. Em um liquidificador, bata os morangos, o leite condensado, o creme de leite e a essência de baunilha até obter uma mistura homogênea. Despeje essa mistura em um recipiente próprio para sorvete e leve ao congelador por pelo menos 4 horas. Após esse tempo, bata o sorvete congelado novamente no liquidificador para quebrar os cristais de gelo e obter uma textura mais cremosa. Retorne ao congelador até firmar completamente. Sirva em bolas e aproveite!",
+      "Tempo_preparo": 300,
+      "image": "https://img.cybercook.com.br/receitas/815/sorvete-de-morango-vegano.jpeg"
+    }
   }
 }
