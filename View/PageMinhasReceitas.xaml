@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:VM="clr-namespace:CookSmart.ViewModels"
              x:Class="CookSmart.View.PageMinhasReceitas" xmlns:model="clr-namespace:CookSmart.Models"
              BackgroundColor="Aqua">
@@ -9,7 +9,7 @@
     <AbsoluteLayout>
         <ScrollView BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0.5,1, 350,660" AbsoluteLayout.LayoutFlags="XProportional">
             <StackLayout HorizontalOptions="Center">
-                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,20,0,0" FontFamily="fa-solid">
+                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,30" FontFamily="fa-solid">
                     <Label.Text>
                         <MultiBinding StringFormat="{} {0}   {1}">
                             <Binding StringFormat="Receitas Salvas"/>
@@ -17,14 +17,17 @@
                         </MultiBinding>
                     </Label.Text>
                 </Label>
-                <ListView ItemsSource="{Binding Doces}" HasUnevenRows="True" HeightRequest="650"  Margin="0,20,0,0">
+                <Label Text="Nenhuma receita salva no momento"  HorizontalOptions="Center" FontSize="20" x:Name="emptyS" WidthRequest="250" HorizontalTextAlignment="Center"
+                       TextColor="{StaticResource Primary}" IsVisible="false"/>
+                <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0"  IsPullToRefreshEnabled="True" x:Name="receitassalvas"
+                          RefreshCommand="{Binding ReceitasSalvas}"  IsRefreshing="{Binding isRefresh}" Refreshing="ListView_Refreshing">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <Grid>
                                     <Frame BackgroundColor="LightYellow">
-                                        <HorizontalStackLayout>
-                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="50"/>
+                                        <HorizontalStackLayout Spacing="20">
+                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60" />
                                             <Label Text="{Binding Nome}" TextColor="Black"/>
                                         </HorizontalStackLayout>
                                     </Frame>
@@ -33,21 +36,25 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,20,0,0" FontFamily="fa-solid">
+                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,30" FontFamily="fa-solid">
                     <MultiBinding StringFormat="{} {0}   {1}">
                         <Binding StringFormat="Receitas Criadas" />
                         <Binding StringFormat="{Static model:IconFont.Pencil}"/>
                     </MultiBinding>
                 </Label>
-                <ListView ItemsSource="{Binding Doces}" HasUnevenRows="True" HeightRequest="650"  Margin="0,20,0,0">
+                <Label Text="Nenhuma receita criada no momento" IsVisible="false"  HorizontalOptions="Center" FontSize="20" x:Name="emptyC" WidthRequest="250" HorizontalTextAlignment="Center"
+                       TextColor="{StaticResource Primary}"/>
+                <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas"
+                          RefreshCommand="{Binding ReceitasCriadas}"  IsRefreshing="{Binding isRefresh}" IsPullToRefreshEnabled="True"
+                          Refreshing="ListView_Refreshing">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <Grid>
                                     <Frame BackgroundColor="LightYellow">
-                                        <HorizontalStackLayout>
-                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="50"/>
-                                            <Label Text="{Binding Nome}" TextColor="Black"/>
+                                        <HorizontalStackLayout Spacing="30">
+                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
+                                            <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold"/>
                                         </HorizontalStackLayout>
                                     </Frame>
                                 </Grid>
@@ -57,8 +64,12 @@
                 </ListView>
             </StackLayout>
         </ScrollView>
-        <Button WidthRequest="70" HeightRequest="70" CornerRadius="40" FontFamily="fa-solid" BackgroundColor="Aqua"
+        
+        <Button WidthRequest="60" HeightRequest="60" CornerRadius="40" FontFamily="fa-solid" BackgroundColor="{StaticResource Primary}"
                     AbsoluteLayout.LayoutBounds="300,1,2,100" Text="{Static model:IconFont.FilePen}"
-                    FontSize="30" AbsoluteLayout.LayoutFlags="YProportional"/>
+                    FontSize="30" AbsoluteLayout.LayoutFlags="YProportional" Padding="0" Clicked="Button_Clicked"
+                BorderColor="Aqua"  TextColor="White" 
+                BorderWidth="1"/>
+
     </AbsoluteLayout>
 </ContentPage>

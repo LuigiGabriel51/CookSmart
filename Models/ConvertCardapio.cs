@@ -1,16 +1,11 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json.Linq;
 
 namespace CookSmart.Models
 {
     public class ConvertCardapio
     {
-        public ConvertCardapio() { 
+        public ConvertCardapio()
+        {
             LoadMauiAsset();
         }
         public string Cardapios { get; set; }
@@ -19,16 +14,16 @@ namespace CookSmart.Models
             var jObject = JObject.Parse(Cardapios);
             var cardapioDrinks = jObject["CardapioDrinks"];
             List<ModelCardapios> drinks = new List<ModelCardapios>();
-            foreach(var i in cardapioDrinks)
+            foreach (var i in cardapioDrinks)
             {
-                foreach(var j in i)
+                foreach (var j in i)
                 {
                     ModelCardapios lista = j.ToObject<ModelCardapios>();
                     drinks.Add(lista);
                 }
             }
             Console.WriteLine(drinks);
-            return drinks; 
+            return drinks;
         }
 
 
@@ -54,7 +49,7 @@ namespace CookSmart.Models
 
         public List<ModelCardapios> CardapioCafe()
         {
-            var jObject = JObject.Parse(Cardapios); 
+            var jObject = JObject.Parse(Cardapios);
             var cardapioDrinks = jObject["CardapioCafe"];
             List<ModelCardapios> cafe = new List<ModelCardapios>();
             foreach (var i in cardapioDrinks)
@@ -86,7 +81,7 @@ namespace CookSmart.Models
             return Petiscos;
         }
 
-            public List<ModelCardapios> CardapioDoces()
+        public List<ModelCardapios> CardapioDoces()
         {
             var jObject = JObject.Parse(Cardapios);
             var SobremesaDoces = jObject["SobremesaDoces"];
@@ -115,6 +110,6 @@ namespace CookSmart.Models
     }
     public class Modelo
     {
-        public ModelCardapios cardapios{ get; set; }
+        public ModelCardapios cardapios { get; set; }
     }
 }

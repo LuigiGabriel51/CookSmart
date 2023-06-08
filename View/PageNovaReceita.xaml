@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:CookSmart.ViewModels"
+             x:Class="CookSmart.View.PageNovaReceita" xmlns:model="clr-namespace:CookSmart.Models"
+             Title="Nova Receita" BackgroundColor="{StaticResource Primary}">
+    <ContentPage.BindingContext>
+        <vm:NovaReceitaVM/>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="15" Spacing="20">
+            <Label Text="Cadastro de Receita" HorizontalOptions="Center" FontSize="Title" TextColor="White" FontAttributes="Bold"/>
+            <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 40,5,5,40"
+                Padding="6,1"
+                HorizontalOptions="Start"> 
+                <Entry BackgroundColor="White" Text="{Binding Nome}" WidthRequest="260" Placeholder="Nome da Receita" 
+                       TextColor="{StaticResource Primary}" MaxLength="32"/>
+            </Border>
+            <HorizontalStackLayout Spacing="15">
+                <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 40,5,5,40"
+                Padding="6,1"
+                HorizontalOptions="Start">
+                    <Entry BackgroundColor="White" Text="{Binding ImageUrl}" WidthRequest="220" Placeholder="Insira a Url de uma Imagem online"
+                       TextColor="{StaticResource Primary}" FontSize="13"/>
+                </Border>
+                <Button HeightRequest="40" WidthRequest="50" Text="{Static model:IconFont.FolderOpen}" FontFamily="fa-solid"
+                        BorderColor="Aqua" BorderWidth="2"/>
+            </HorizontalStackLayout>
+            
+            
+            <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 35,1,1,35"
+                Padding="6,6"
+                HorizontalOptions="Start">
+                <Editor BackgroundColor="White" WidthRequest="260" Text="{Binding Descricao}" HeightRequest="100" Placeholder="Descrição da Receita" 
+                        TextColor="{StaticResource Primary}" MaxLength="300"/>
+            </Border>
+            <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 35,1,1,35"
+                Padding="6,6"
+                HorizontalOptions="Start">
+                <Editor BackgroundColor="White" WidthRequest="260" Text="{Binding Ingredientes}" HeightRequest="100" Placeholder="Ingredientes da Receita" 
+                        TextColor="{StaticResource Primary}" MaxLength="500"/>
+            </Border>
+            <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 35,1,1,35"
+                Padding="6,6"
+                HorizontalOptions="Start">
+                <Editor BackgroundColor="White" WidthRequest="260" Text="{Binding ModoPreparo}" HeightRequest="100" Placeholder="Modo de Preparo" 
+                        TextColor="{StaticResource Primary}" MaxLength="500"/>
+            </Border>
+            <Border
+                Stroke="aqua"
+                StrokeThickness="6"
+                StrokeShape="RoundRectangle 40,5,5,40"
+                Padding="6,1"
+                HorizontalOptions="Start">
+                <Entry BackgroundColor="White" WidthRequest="260" Text="{Binding TempoPreparo}" Placeholder="Tempo de Preparo" Keyboard="Numeric" 
+                       TextColor="{StaticResource Primary}" MaxLength="32"/>
+            </Border>
+            <Button HorizontalOptions="Center" Text="{Static model:IconFont.FloppyDisk}" FontFamily="fa-solid" WidthRequest="150"
+                    FontSize="25" BackgroundColor="Aqua" TextColor="White" BorderColor="White" BorderWidth="1" Command="{Binding Save}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

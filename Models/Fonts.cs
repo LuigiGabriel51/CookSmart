@@ -11,5 +11,6 @@
         public const string FilePen = "\uf31c";
         public const string Pencil = "\u270f";
         public const string FloppyDisk = "\uf0c7";
+        public const string FolderOpen = "\uf07c";
     }
 }

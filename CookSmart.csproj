@@ -77,6 +77,7 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="sqlite-net-base" Version="1.8.116" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
 		<PackageReference Include="SQLitePCLRaw.core" Version="2.1.5" />
 		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.5" />
 		<PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.5" />
@@ -97,6 +98,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\PageMinhasReceitas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\PageNovaReceita.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\PagesCategoria\PageAlmoco.xaml">

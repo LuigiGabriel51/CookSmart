@@ -7,10 +7,7 @@ namespace CookSmart.Models
         ConvertCardapio ConvertCardapio = new ConvertCardapio();
         public List<ModelCardapios> DrinksDisp { get; set; }
 
-        public Drinks()
-        {
-           DrinksDisp = ConvertCardapio.CardapioDrinks();
-        }
+        public Drinks() => DrinksDisp = ConvertCardapio.CardapioDrinks();
     }
 
     public class ModelCardapios

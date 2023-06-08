@@ -1,19 +1,31 @@
-﻿using CookSmart.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CookSmart.Models;
 
 namespace CookSmart.ViewModels
 {
-    public class MinhasReceitasVM
+    public class MinhasReceitasVM: ObservableObject
     {
-        private ConvertCardapio Convert = new ConvertCardapio();
-        public List<ModelCardapios> Doces { get; set; }
+        private readonly ReceitasSalvas BDreceitasSalvas;
+        private readonly ReceitasCriadas BDreceitasCriadas;
+
+        public List<ModelCardapios> ReceitasSalvas { get; set; }
+        public List<ModelCardapios> ReceitasCriadas { get; set; }
         public MinhasReceitasVM()
         {
-            Doces = Convert.CardapioDoces();
+            BDreceitasSalvas = new ReceitasSalvas();
+            BDreceitasCriadas = new ReceitasCriadas();
+            ReceitasSalvas = RefreshS(BDreceitasSalvas);
+            ReceitasCriadas = RefreshC(BDreceitasCriadas);
+        }
+        private List<ModelCardapios> RefreshS(ReceitasSalvas BD)
+        {
+            var receitaList = BD.List();
+            return receitaList;
+        }
+        private List<ModelCardapios> RefreshC(ReceitasCriadas BD)
+        {
+            var receitaList = BD.List();
+            return receitaList;
         }
     }
 }

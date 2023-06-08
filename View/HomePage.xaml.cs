@@ -1,7 +1,5 @@
 using CookSmart.Models;
 using CookSmart.View.PagesCategoria;
-using Microsoft.Maui.Controls.PlatformConfiguration;
-using System.Text.Json;
 
 namespace CookSmart.View;
 
@@ -95,10 +93,10 @@ public partial class HomePage : ContentPage
     private void Button_Clicked_2(object sender, EventArgs e)
     {
         Random random = new();
-            var recomendadoDrink = ConvertCardapio.CardapioDrinks()[random.Next(11)];
-            var recomendadoAlmoco = ConvertCardapio.CardapioAlmoco()[random.Next(8)];
-            var recomendadoCafe = ConvertCardapio.CardapioCafe()[random.Next(12)];
-            var novaPagina = new PageVerMais("Recomendações por Categoria", recomendadoDrink, recomendadoAlmoco, recomendadoCafe);
-            Navigation.PushAsync(novaPagina);
+        var recomendadoDrink = ConvertCardapio.CardapioDrinks()[random.Next(11)];
+        var recomendadoAlmoco = ConvertCardapio.CardapioAlmoco()[random.Next(8)];
+        var recomendadoCafe = ConvertCardapio.CardapioCafe()[random.Next(12)];
+        var novaPagina = new PageVerMais("Recomendações por Categoria", recomendadoDrink, recomendadoAlmoco, recomendadoCafe);
+        Navigation.PushAsync(novaPagina);
     }
 }
