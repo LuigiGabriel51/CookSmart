@@ -39,8 +39,7 @@ public partial class PageMinhasReceitas : ContentPage
         MinhasReceitasVM mr = new MinhasReceitasVM();
         receitassalvas.ItemsSource = mr.ReceitasSalvas;
         receitascriadas.ItemsSource = mr.ReceitasCriadas;
-        receitascriadas.IsRefreshing = false;
-        receitassalvas.IsRefreshing = false;
+        rv.IsRefreshing = false;
     }
 
     private void SwipeItem_Invoked(object sender, EventArgs e)
@@ -49,8 +48,19 @@ public partial class PageMinhasReceitas : ContentPage
         ModelCardapios currentItem = (ModelCardapios)swipeItem.BindingContext;
         if (currentItem != null)
         {
-            ReceitasCriadas NewReceita = new ReceitasCriadas();
-            NewReceita.Delete(currentItem);
+            ReceitasCriadas Receita = new ReceitasCriadas();
+            Receita.Delete(currentItem);
+        }
+    }
+
+    private void SwipeItem_Invoked_1(object sender, EventArgs e)
+    {
+        SwipeItem swipeItem = (SwipeItem)sender;
+        ModelCardapios currentItem = (ModelCardapios)swipeItem.BindingContext;
+        if (currentItem != null)
+        {
+            ReceitasSalvas Receita = new ReceitasSalvas();
+            Receita.Delete(currentItem);
         }
     }
 }

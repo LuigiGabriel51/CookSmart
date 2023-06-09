@@ -27,5 +27,6 @@ namespace CookSmart.ViewModels
             var receitaList = BD.List();
             return receitaList;
         }
+
     }
 }

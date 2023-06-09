@@ -7,9 +7,12 @@
         <VM:MinhasReceitasVM/>
     </ContentPage.BindingContext>
     <AbsoluteLayout>
-        <ScrollView BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0.5,1, 350,660" AbsoluteLayout.LayoutFlags="XProportional">
-            <StackLayout HorizontalOptions="Center">
-                <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,30" FontFamily="fa-solid">
+        <RefreshView IsRefreshing="False" Refreshing="ListView_Refreshing"  AbsoluteLayout.LayoutBounds="0.5,1, 350,660" x:Name="rv">
+        <ScrollView BackgroundColor="Transparent"
+                    AbsoluteLayout.LayoutFlags="XProportional">
+                <StackLayout HorizontalOptions="Center">
+
+                    <Label FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,0" FontFamily="fa-solid">
                     <Label.Text>
                         <MultiBinding StringFormat="{} {0}   {1}">
                             <Binding StringFormat="Receitas Salvas"/>
@@ -19,20 +22,31 @@
                 </Label>
                 <Label Text="Nenhuma receita salva no momento"  HorizontalOptions="Center" FontSize="20" x:Name="emptyS" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}" IsVisible="false"/>
-                <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0"  IsPullToRefreshEnabled="True" x:Name="receitassalvas"
-                          RefreshCommand="{Binding ReceitasSalvas}"  IsRefreshing="{Binding isRefresh}" Refreshing="ListView_Refreshing">
+                <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitassalvas">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Grid>
-                                    <Frame BackgroundColor="LightYellow">
-                                        <HorizontalStackLayout Spacing="20">
-                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60" />
-                                            <Label Text="{Binding Nome}" TextColor="Black"/>
-                                        </HorizontalStackLayout>
-                                    </Frame>
-                                </Grid>
-                            </ViewCell>
+                                    <Grid>
+                                        <SwipeView>
+                                            <SwipeView.RightItems>
+                                                <SwipeItems>
+                                                    <SwipeItem Text="Delete"
+                                                       IconImageSource="excluir.png" 
+                                                       BackgroundColor="WhiteSmoke"
+                                                       Invoked="SwipeItem_Invoked_1">
+                                                    </SwipeItem>
+                                                </SwipeItems>
+                                            </SwipeView.RightItems>
+
+                                            <Frame BackgroundColor="LightYellow">
+                                                <HorizontalStackLayout Spacing="30">
+                                                    <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
+                                                    <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold" WidthRequest="180"/>
+                                                </HorizontalStackLayout>
+                                            </Frame>
+                                        </SwipeView>
+                                    </Grid>
+                                </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
@@ -44,9 +58,7 @@
                 </Label>
                 <Label Text="Nenhuma receita criada no momento" IsVisible="false"  HorizontalOptions="Center" FontSize="20" x:Name="emptyC" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}"/>
-                <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas"
-                          RefreshCommand="{Binding ReceitasCriadas}"  IsRefreshing="{Binding isRefresh}" IsPullToRefreshEnabled="True"
-                          Refreshing="ListView_Refreshing">
+                <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -77,6 +89,7 @@
                 
             </StackLayout>
         </ScrollView>
+        </RefreshView>
         
         <Button WidthRequest="60" HeightRequest="60" CornerRadius="40" FontFamily="fa-solid" BackgroundColor="{StaticResource Primary}"
                     AbsoluteLayout.LayoutBounds="300,1,2,100" Text="{Static model:IconFont.FilePen}"

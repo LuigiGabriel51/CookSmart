@@ -17,7 +17,9 @@
                 <Label Text="{Static model:IconFont.Clock}" FontFamily="fa-solid" TextColor="Black" FontSize="25" 
                                    HorizontalOptions="End" Margin="10,0,10,0" />
                 <Label Text="{Binding Tempo_preparo}" TextColor="Black"/>
-                <Label Text=" min" TextColor="Black"/>
+                <Label Text=" min" TextColor="Black" Margin="0,0,160,0"/>
+                <Button HorizontalOptions="End" CornerRadius="10" Text="{Static model:IconFont.FloppyDisk}" FontFamily="fa-solid" Padding="0"
+                        FontSize="35" TextColor="WhiteSmoke" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
             </HorizontalStackLayout>
             <Label Text="Descrição: " FontSize="16" FontAttributes="Bold" HorizontalOptions="Center"/>
             <Label Text="{Binding Descricao}" FontSize="10" HorizontalTextAlignment="Center" TextColor="Black"/>
