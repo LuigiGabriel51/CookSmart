@@ -1,4 +1,6 @@
+using CookSmart.Models;
 using CookSmart.ViewModels;
+using System.Reflection.Metadata;
 
 namespace CookSmart.View;
 
@@ -27,12 +29,28 @@ public partial class PageMinhasReceitas : ContentPage
             emptyC.IsVisible = true;
         }
         else { emptyC.IsVisible=false; }
+        MinhasReceitasVM mr = new MinhasReceitasVM();
+        receitassalvas.ItemsSource = mr.ReceitasSalvas;
+        receitascriadas.ItemsSource = mr.ReceitasCriadas; 
     }
 
     private void ListView_Refreshing(object sender, EventArgs e)
     {
-        Task.Delay(3000);
+        MinhasReceitasVM mr = new MinhasReceitasVM();
+        receitassalvas.ItemsSource = mr.ReceitasSalvas;
+        receitascriadas.ItemsSource = mr.ReceitasCriadas;
         receitascriadas.IsRefreshing = false;
         receitassalvas.IsRefreshing = false;
+    }
+
+    private void SwipeItem_Invoked(object sender, EventArgs e)
+    {
+        SwipeItem swipeItem = (SwipeItem)sender;
+        ModelCardapios currentItem = (ModelCardapios)swipeItem.BindingContext;
+        if (currentItem != null)
+        {
+            ReceitasCriadas NewReceita = new ReceitasCriadas();
+            NewReceita.Delete(currentItem);
+        }
     }
 }

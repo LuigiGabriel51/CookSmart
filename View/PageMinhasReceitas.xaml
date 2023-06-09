@@ -51,17 +51,30 @@
                         <DataTemplate>
                             <ViewCell>
                                 <Grid>
-                                    <Frame BackgroundColor="LightYellow">
-                                        <HorizontalStackLayout Spacing="30">
-                                            <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
-                                            <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold"/>
-                                        </HorizontalStackLayout>
-                                    </Frame>
+                                    <SwipeView>
+                                        <SwipeView.RightItems>
+                                            <SwipeItems>
+                                                <SwipeItem Text="Delete"
+                                                       IconImageSource="excluir.png" 
+                                                       BackgroundColor="WhiteSmoke"
+                                                       Invoked="SwipeItem_Invoked">
+                                                </SwipeItem>
+                                            </SwipeItems>
+                                        </SwipeView.RightItems>
+
+                                        <Frame BackgroundColor="LightYellow">
+                                            <HorizontalStackLayout Spacing="30">
+                                                <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
+                                                <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold" WidthRequest="180"/>
+                                            </HorizontalStackLayout>
+                                        </Frame>
+                                    </SwipeView>
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+                
             </StackLayout>
         </ScrollView>
         

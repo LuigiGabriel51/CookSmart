@@ -66,7 +66,9 @@
 	  <None Remove="Resources\Images\aperitivo.png" />
 	  <None Remove="Resources\Images\cafe.png" />
 	  <None Remove="Resources\Images\cozinhando.png" />
+	  <None Remove="Resources\Images\delete.png" />
 	  <None Remove="Resources\Images\drink.png" />
+	  <None Remove="Resources\Images\excluir.png" />
 	  <None Remove="Resources\Images\salada.png" />
 	  <None Remove="Resources\Images\sobremesa.png" />
 	</ItemGroup>

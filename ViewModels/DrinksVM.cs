@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using SQLite;
 
 namespace CookSmart.Models
 {
@@ -12,6 +13,8 @@ namespace CookSmart.Models
 
     public class ModelCardapios
     {
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
         public string Nome { get; set; }
         public string image { get; set; }
         public string Descricao { get; set; }
