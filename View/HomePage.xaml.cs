@@ -19,21 +19,27 @@ public partial class HomePage : ContentPage
         switch (argumento)
         {
             case 1:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageDrinks");
                 break;
             case 2:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageAlmoco");
                 break;
             case 3:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageCafe");
                 break;
             case 4:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageAperitivo");
                 break;
             case 5:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageSobremesa");
                 break;
             case 6:
+                System.Threading.Thread.Sleep(100);
                 await Shell.Current.GoToAsync("////TopCategorias/PageSalada");
                 break;
             default:
@@ -65,6 +71,8 @@ public partial class HomePage : ContentPage
         }
 
     }
+
+    
 
     public static class DailyTaskManager
     {

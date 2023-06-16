@@ -26,8 +26,6 @@ namespace CookSmart.Models
             return drinks;
         }
 
-
-
         public List<ModelCardapios> CardapioAlmoco()
         {
             var jObject = JObject.Parse(Cardapios);
@@ -44,8 +42,6 @@ namespace CookSmart.Models
             Console.WriteLine(almocos);
             return almocos;
         }
-
-
 
         public List<ModelCardapios> CardapioCafe()
         {

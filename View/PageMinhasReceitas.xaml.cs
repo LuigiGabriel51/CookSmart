@@ -1,3 +1,5 @@
+using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
 using CookSmart.Models;
 using CookSmart.ViewModels;
 using System.Reflection.Metadata;
@@ -42,7 +44,7 @@ public partial class PageMinhasReceitas : ContentPage
         rv.IsRefreshing = false;
     }
 
-    private void SwipeItem_Invoked(object sender, EventArgs e)
+    private async void SwipeItem_Invoked(object sender, EventArgs e)
     {
         SwipeItem swipeItem = (SwipeItem)sender;
         ModelCardapios currentItem = (ModelCardapios)swipeItem.BindingContext;
@@ -50,10 +52,18 @@ public partial class PageMinhasReceitas : ContentPage
         {
             ReceitasCriadas Receita = new ReceitasCriadas();
             Receita.Delete(currentItem);
+
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            string text = "Item excluído";
+            ToastDuration duration = ToastDuration.Short;
+            double fontSize = 15;
+
+            var toast = Toast.Make(text, duration, fontSize);
+            await toast.Show(cancellationTokenSource.Token);
         }
     }
 
-    private void SwipeItem_Invoked_1(object sender, EventArgs e)
+    private async void SwipeItem_Invoked_1(object sender, EventArgs e)
     {
         SwipeItem swipeItem = (SwipeItem)sender;
         ModelCardapios currentItem = (ModelCardapios)swipeItem.BindingContext;
@@ -61,6 +71,15 @@ public partial class PageMinhasReceitas : ContentPage
         {
             ReceitasSalvas Receita = new ReceitasSalvas();
             Receita.Delete(currentItem);
+
+
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            string text = "Item excluído";
+            ToastDuration duration = ToastDuration.Short;
+            double fontSize = 15;
+
+            var toast = Toast.Make(text, duration, fontSize);
+            await toast.Show(cancellationTokenSource.Token);
         }
     }
 }

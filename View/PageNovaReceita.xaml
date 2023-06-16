@@ -70,7 +70,8 @@
                        TextColor="{StaticResource Primary}" MaxLength="32"/>
             </Border>
             <Button HorizontalOptions="Center" Text="{Static model:IconFont.FloppyDisk}" FontFamily="fa-solid" WidthRequest="150"
-                    FontSize="25" BackgroundColor="Aqua" TextColor="White" BorderColor="White" BorderWidth="1" Command="{Binding Save}" Clicked="Button_Clicked"/>
+                    FontSize="25" BackgroundColor="Aqua" TextColor="White" BorderColor="White" BorderWidth="1" Command="{Binding Save}" 
+                    />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
