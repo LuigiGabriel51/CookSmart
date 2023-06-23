@@ -1,6 +1,3 @@
-using System.Threading.Tasks;
-using CommunityToolkit.Maui.Alerts;
-using CommunityToolkit.Maui.Core;
 
 namespace CookSmart.View;
 

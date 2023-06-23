@@ -3,22 +3,16 @@ using CommunityToolkit.Maui.Core;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CookSmart.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace CookSmart.ViewModels
 {
-    public class NovaReceitaVM: ObservableObject
+    public class NovaReceitaVM : ObservableObject
     {
         private string _nome;
-        public string Nome {
+        public string Nome
+        {
             get { return _nome; }
-            set {SetProperty(ref _nome, value); }
+            set { SetProperty(ref _nome, value); }
         }
         private string _imageurl;
         public string ImageUrl

@@ -52,12 +52,20 @@ public partial class HomePage : ContentPage
         List<ModelCardapios> recomendacaoDrink = ConvertCardapio.CardapioDrinks();
         List<ModelCardapios> recomendacaoAlmoco = ConvertCardapio.CardapioAlmoco();
         List<ModelCardapios> recomendacaoCafe = ConvertCardapio.CardapioCafe();
+        List<ModelCardapios> recomendacaoPetisco = ConvertCardapio.CardapioPetiscos();
+        List<ModelCardapios> recomendacaoDoces = ConvertCardapio.CardapioDoces();
+        List<ModelCardapios> recomendacaoVegano = ConvertCardapio.CardapioVegano();
 
         Random random = new Random();
-        int escolhido = random.Next(19);
+        int escolhido = random.Next(67);
         List<ModelCardapios> RecomendacaoDia = new List<ModelCardapios>();
 
-        RecomendacaoDia = recomendacaoDrink.Concat(recomendacaoAlmoco).Concat(recomendacaoCafe).ToList();
+        RecomendacaoDia = recomendacaoDrink
+            .Concat(recomendacaoAlmoco)
+            .Concat(recomendacaoCafe)
+            .Concat(recomendacaoPetisco)
+            .Concat(recomendacaoDoces)
+            .Concat(recomendacaoVegano).ToList();
 
         return RecomendacaoDia[escolhido];
     }
@@ -72,7 +80,7 @@ public partial class HomePage : ContentPage
 
     }
 
-    
+
 
     public static class DailyTaskManager
     {
@@ -102,9 +110,20 @@ public partial class HomePage : ContentPage
     {
         Random random = new();
         var recomendadoDrink = ConvertCardapio.CardapioDrinks()[random.Next(11)];
-        var recomendadoAlmoco = ConvertCardapio.CardapioAlmoco()[random.Next(8)];
+        var recomendadoAlmoco = ConvertCardapio.CardapioAlmoco()[random.Next(11)];
         var recomendadoCafe = ConvertCardapio.CardapioCafe()[random.Next(12)];
-        var novaPagina = new PageVerMais("Recomendações por Categoria", recomendadoDrink, recomendadoAlmoco, recomendadoCafe);
+        var recomendadoPetisco = ConvertCardapio.CardapioPetiscos()[random.Next(11)];
+        var recomendadoDoce = ConvertCardapio.CardapioDoces()[random.Next(11)];
+        var recomendadoVegano = ConvertCardapio.CardapioVegano()[random.Next(11)];
+
+        List<ModelCardapios> Recomendacoes = new()
+        {
+            recomendadoDrink,recomendadoAlmoco,recomendadoCafe,recomendadoPetisco,recomendadoDoce,recomendadoVegano
+        };
+
+        var novaPagina = new PageVerMais("Recomendações por Categoria", Recomendacoes);
         Navigation.PushAsync(novaPagina);
     }
+
+
 }

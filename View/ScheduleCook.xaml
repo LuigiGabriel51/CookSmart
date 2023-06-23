@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CookSmart.View.ScheduleCook" xmlns:vm="clr-namespace:CookSmart.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:ScheduleVM/>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="Aqua" Padding="20" Spacing="10">
+
+            <Label Text="Programação de Receitas" FontSize="22" TextColor="DodgerBlue" HorizontalOptions="Center" Margin="20" FontAttributes="Bold"/>
+            <HorizontalStackLayout Spacing="20">
+                <Label Text="Programar para:" FontSize="16" TextColor="Black"/>
+                <DatePicker HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" Margin="0,-8,0,0"
+                        MaximumDate="{Binding maxtime}" MinimumDate="{Binding mintime}" Date="{Binding Schedule}" x:Name="date"
+                            TextColor="White"/>
+                <TimePicker Margin="0,-8,0,0" Time="{Binding Timespan}" x:Name="time" TextColor="White"/>
+            </HorizontalStackLayout>
+
+
+            <Label Text="Lista de Receitas:" FontSize="16" Margin="20,30,0,0" TextColor="Black"/>
+            <Border BackgroundColor="Transparent" WidthRequest="280" HorizontalOptions="Start">
+                <ListView x:Name="AvailableRecipesListView" ItemsSource="{Binding Cardapios}" WidthRequest="280" HasUnevenRows="True"
+                   HeightRequest="200" HorizontalOptions="Start"  SelectedItem="{Binding ItemSchedule}" BackgroundColor="DodgerBlue"
+                          >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <HorizontalStackLayout Spacing="10">
+                                        <Image  Aspect="Fill" HeightRequest="40" WidthRequest="40">
+                                            <Image.Source>
+                                                <UriImageSource Uri="{Binding image}" CacheValidity="30:00:00:00"/>
+                                            </Image.Source>
+                                        </Image>
+                                        <Label Text="{Binding Nome}" FontSize="16" WidthRequest="160"/>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Border>
+
+            <Button Text="Salvar" Margin="20" Command="{Binding SaveSchedule}" FontAttributes="Bold" Clicked="ListView_Refreshing"/>
+
+            <Label Text="Receitas Programadas" FontSize="22" TextColor="Black" HorizontalOptions="Center" Margin="20" FontAttributes="Bold"/>
+
+            <ListView ItemsSource="{Binding Receitasprogramadas}" x:Name="receitasprogramada" IsVisible="true" Refreshing="ListView_Refreshing" 
+                      IsPullToRefreshEnabled="True" BackgroundColor="DodgerBlue" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem Text="Delete"
+                                                       IconImageSource="excluir.png" 
+                                                       BackgroundColor="Silver"
+                                                       Invoked="SwipeItem_Invoked_1"
+                                                       >
+                                            </SwipeItem>
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+
+                                    <VerticalStackLayout>
+                                        <HorizontalStackLayout Spacing="20" Padding="10">
+                                            <Image  Aspect="Fill" HeightRequest="40" WidthRequest="40">
+                                                <Image.Source>
+                                                    <UriImageSource Uri="{Binding image}" CacheValidity="30:00:00:00"/>
+                                                </Image.Source>
+                                            </Image>
+                                            <Label Text="{Binding Nome}" FontSize="16" WidthRequest="160"/>
+                                        </HorizontalStackLayout>
+                                        <HorizontalStackLayout>
+                                            <Label Text="{Binding date}" FontSize="10"/>
+                                            <Label Text="{Binding time}" FontSize="10"/>
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </SwipeView>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

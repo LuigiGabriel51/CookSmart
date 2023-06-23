@@ -467,5 +467,95 @@
       "Tempo_preparo": 300,
       "image": "https://img.cybercook.com.br/receitas/815/sorvete-de-morango-vegano.jpeg"
     }
+  },
+  "CardapioVegetariano": {
+    "chili": {
+      "Nome": "Chili Vegetariano",
+      "image": "https://www.anitahealthy.com/wp-content/uploads/2020/03/Chili-vegetariano-4-484x400.jpg",
+      "Descricao": "Uma versão vegetariana deliciosa do chili com feijões e legumes.",
+      "Modo_preparo": "Aqueça o azeite em uma panela grande e refogue a cebola e o alho até ficarem macios.\nAdicione os pimentões, a cenoura e a abobrinha...\n",
+      "Ingredientes": "2 colheres de sopa de azeite de oliva\n1 cebola picada\n2 dentes de alho picados\n1 pimentão vermelho picado\n...",
+      "Tempo_preparo": 30
+    },
+    "macarrao": {
+      "Nome": "Macarrão com Molho de Tomate Vegano",
+      "image": "https://veganandcolors.com/wp-content/uploads/2020/06/i4.jpg",
+      "Descricao": "Uma opção vegana clássica com macarrão e um molho de tomate saboroso.",
+      "Modo_preparo": "Cozinhe o macarrão de acordo com as instruções da embalagem.\nEm uma panela, refogue a cebola e o alho...\n",
+      "Ingredientes": "200g de macarrão\n1 cebola picada\n2 dentes de alho picados\n400g de tomate pelado\n...",
+      "Tempo_preparo": 25
+    },
+    "saladaQuinoa": {
+      "Nome": "Salada de Quinoa com Legumes",
+      "image": "https://www.vaisefood.com/wp-content/uploads/2014/05/salada-de-quinoa.jpg",
+      "Descricao": "Uma salada nutritiva e refrescante com quinoa e uma variedade de legumes.",
+      "Modo_preparo": "Cozinhe a quinoa de acordo com as instruções da embalagem.\nEm uma tigela grande, misture a quinoa cozida...\n",
+      "Ingredientes": "1 xícara de quinoa\n1 pepino picado\n1 pimentão vermelho picado\n1 cenoura ralada\n...",
+      "Tempo_preparo": 20
+    },
+    "hamburguerLentilha": {
+      "Nome": "Hambúrguer de Lentilha",
+      "image": "https://cdn0.tudoreceitas.com/pt/posts/4/0/7/hamburguer_de_lentilha_muito_facil_6704_paso_3_600.jpg",
+      "Descricao": "Um hambúrguer vegetariano saboroso feito com lentilhas e temperos.",
+      "Modo_preparo": "Cozinhe as lentilhas de acordo com as instruções da embalagem.\nEm uma frigideira, refogue a cebola e o alho...\n",
+      "Ingredientes": "1 xícara de lentilhas cozidas\n1 cebola picada\n2 dentes de alho picados\n1 cenoura ralada\n...",
+      "Tempo_preparo": 35
+    },
+    "Wrap": {
+      "Nome": "Wrap Vegano de Legumes",
+      "image": "https://blog.cybercook.com.br/wp-content/uploads/2022/07/conheca-os-lanches-enrolados-com-o-wrap-vegetariano-de-legumes.jpeg",
+      "Descricao": "Um wrap leve e cheio de sabor, recheado com legumes frescos.",
+      "Modo_preparo": "Em uma frigideira, refogue os legumes de sua escolha, como pimentões, abobrinhas e cogumelos, com um pouco de azeite...\n",
+      "Ingredientes": "1 tortilha de wrap\nlegumes variados (pimentões, abobrinhas, cogumelos)\nazeite de oliva\n...",
+      "Tempo_preparo": 15
+    },
+    "curry": {
+      "Nome": "Curry de Legumes",
+      "image": "https://claudia.abril.com.br/wp-content/uploads/2020/02/curry-de-legumes.jpg",
+      "Descricao": "Um prato aromático e picante com legumes cozidos em um molho de curry.",
+      "Modo_preparo": "Aqueça o óleo em uma panela e refogue a cebola e o alho até ficarem macios.\nAdicione o curry em pó e misture bem...\n",
+      "Ingredientes": "1 colher de sopa de óleo vegetal\n1 cebola picada\n2 dentes de alho picados\n1 colher de sopa de curry em pó\n...",
+      "Tempo_preparo": 40
+    },
+    "lasanhaVegana": {
+      "Nome": "Lasanha Vegana",
+      "image": "https://www.dicasdemulher.com.br/wp-content/uploads/2021/07/lasanha-vegetariana-01.png",
+      "Descricao": "Uma lasanha deliciosa e reconfortante feita com camadas de macarrão, molho de tomate e vegetais.",
+      "Modo_preparo": "Cozinhe as folhas de lasanha de acordo com as instruções da embalagem.\nEm uma panela, refogue a cebola e o alho...\n",
+      "Ingredientes": "200g de folhas de lasanha\n1 cebola picada\n2 dentes de alho picados\n400g de molho de tomate\n...",
+      "Tempo_preparo": 50
+    },
+    "saladaBatata": {
+      "Nome": "Salada de Batata Vegana",
+      "image": "https://4.bp.blogspot.com/-qMTHWVJoTlM/WOGPLZ8FwPI/AAAAAAAAml0/2f0ZzRV75iITCV3olWHtRKVu4f4l3a1-wCLcB/s1600/Salada%2Bde%2Bbatata%2Bbaroa%2B2.jpg",
+      "Descricao": "Uma salada de batata cremosa e cheia de sabor, feita sem produtos de origem animal.",
+      "Modo_preparo": "Cozinhe as batatas em água salgada até ficarem macias.\nEm uma tigela grande, misture as batatas cozidas...\n",
+      "Ingredientes": "500g de batatas\n1 cebola roxa picada\n2 colheres de sopa de maionese vegana\n...",
+      "Tempo_preparo": 30
+    },
+    "sopa": {
+      "Nome": "Sopa de Abóbora Vegana",
+      "image": "https://4.bp.blogspot.com/-0JfNOiBj4x4/U8hezixni-I/AAAAAAAAaM0/gA-n6K3k00M/s1600/sopa-creme-de-abobora.png",
+      "Descricao": "Uma sopa cremosa e reconfortante feita com abóbora e temperos aromáticos.",
+      "Modo_preparo": "Em uma panela grande, aqueça o óleo vegetal.\nRefogue a cebola e o alho até ficarem macios...\n",
+      "Ingredientes": "2 colheres de sopa de óleo vegetal\n1 cebola picada\n2 dentes de alho picados\n800g de abóbora descascada e cortada em cubos\n...",
+      "Tempo_preparo": 40
+    },
+    "risoto": {
+      "Nome": "Risoto de Cogumelos Vegano",
+      "image": "https://static.madebychoices.pt/wp-content/uploads/2021/10/risoto-de-cogumelos.jpg",
+      "Descricao": "Um risoto cremoso e rico em sabores, feito com cogumelos e ingredientes veganos.",
+      "Modo_preparo": "Em uma panela, aqueça o caldo de legumes e mantenha em fogo baixo.\nEm outra panela, aqueça o azeite...\n",
+      "Ingredientes": "1 litro de caldo de legumes\n2 colheres de sopa de azeite de oliva\n1 cebola picada\n2 dentes de alho picados\n...",
+      "Tempo_preparo": 35
+    },
+    "falafel": {
+      "Nome": "Falafel Vegano",
+      "image": "https://img.cybercook.com.br/receitas/449/falafel-bolinho-de-grao-de-bico-vegano-1.jpeg",
+      "Descricao": "Bolinhos crocantes de grão de bico temperados, perfeitos para acompanhar saladas ou montar sanduíches.",
+      "Modo_preparo": "Em um processador de alimentos, adicione o grão de bico cozido, a cebola, o alho, o coentro, o cominho...\n",
+      "Ingredientes": "400g de grão de bico cozido\n1 cebola picada\n2 dentes de alho picados\n1/2 xícara de folhas de coentro\n...",
+      "Tempo_preparo": 40
+    }
   }
 }

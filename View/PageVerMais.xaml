@@ -17,6 +17,10 @@
                                    />
                             <Label Text="{Binding recomendados.Descricao}" TextColor="Black" HorizontalOptions="Center" FontSize="13" HorizontalTextAlignment="Center"/>
                         </FlexLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                              NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
                     </Frame>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

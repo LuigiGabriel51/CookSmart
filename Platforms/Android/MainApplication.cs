@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
+[assembly: UsesPermission(Android.Manifest.Permission.BatteryStats)]
 namespace CookSmart;
 
 [Application]
@@ -13,3 +14,4 @@ public class MainApplication : MauiApplication
 
     protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
 }
+

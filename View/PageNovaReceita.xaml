@@ -28,8 +28,11 @@
                     <Entry BackgroundColor="White" Text="{Binding ImageUrl}" WidthRequest="220" Placeholder="Insira a Url de uma Imagem online"
                        TextColor="{StaticResource Primary}" FontSize="13"/>
                 </Border>
-                <Button HeightRequest="40" WidthRequest="50" Text="{Static model:IconFont.FolderOpen}" FontFamily="fa-solid"
-                        BorderColor="Aqua" BorderWidth="2"/>
+                <Button HeightRequest="40" WidthRequest="40" Text="{Static model:IconFont.CircleQuestion}" FontFamily="fa-solid"
+                        BorderWidth="0" CornerRadius="20" FontSize="25" Padding="0" BackgroundColor="Transparent" TextColor="White"
+                        ToolTipProperties.Text="Vá no seu navegador e copie a Url da imagem desejada e cole aqui." 
+                        />
+                
             </HorizontalStackLayout>
             
             

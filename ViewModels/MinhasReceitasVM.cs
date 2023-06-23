@@ -3,7 +3,7 @@ using CookSmart.Models;
 
 namespace CookSmart.ViewModels
 {
-    public class MinhasReceitasVM: ObservableObject
+    public class MinhasReceitasVM : ObservableObject
     {
         private readonly ReceitasSalvas BDreceitasSalvas;
         private readonly ReceitasCriadas BDreceitasCriadas;

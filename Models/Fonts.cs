@@ -13,6 +13,7 @@
         public const string FloppyDisk = "\uf0c7";
         public const string FolderOpen = "\uf07c";
         public const string ArrowLeft = "\u2190";
+        public const string CircleQuestion = "\uf059";
     }
 
 }

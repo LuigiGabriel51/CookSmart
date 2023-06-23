@@ -22,7 +22,8 @@
                 </Label>
                 <Label Text="Nenhuma receita salva no momento"  HorizontalOptions="Center" FontSize="20" x:Name="emptyS" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}" IsVisible="false"/>
-                <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitassalvas">
+                <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitassalvas"
+                          SeparatorVisibility="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -58,7 +59,8 @@
                 </Label>
                 <Label Text="Nenhuma receita criada no momento" IsVisible="false"  HorizontalOptions="Center" FontSize="20" x:Name="emptyC" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}"/>
-                <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas">
+                <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas"
+                          SeparatorVisibility="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

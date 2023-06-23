@@ -43,17 +43,22 @@
         </StackLayout>
     </Shell.FlyoutFooter>
     
-    <FlyoutItem Title="CookSmart" Shell.ForegroundColor="Aqua"
-              >
-        <ShellContent Title="CookSmart"
-                    ContentTemplate="{DataTemplate View:HomePage}"
+    <FlyoutItem Title="CookSmart" Shell.ForegroundColor="Aqua" FlyoutIcon="comendo">
+        <ShellContent Title="CookSmart" Icon="home_icon.png"
+                    ContentTemplate="{DataTemplate View:HomePage}" 
                     Route="HomePage"/>
     </FlyoutItem>
     
-    <FlyoutItem Title="Minhas Receitas" Shell.ForegroundColor="Aqua">
+    <FlyoutItem Title="Minhas Receitas" Shell.ForegroundColor="Aqua" FlyoutIcon="receita">
         <ShellContent Title="Minhas Receitas"
                       ContentTemplate="{DataTemplate View:PageMinhasReceitas}"
                       Route="MinhasReceitas"/>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Programar Receitas" Shell.ForegroundColor="Aqua" FlyoutIcon="agenda">
+        <ShellContent Title="Programar Receitas"
+                      ContentTemplate="{DataTemplate View:ScheduleCook}"
+                      Route="ScheduleCook"/>
     </FlyoutItem>
 
     <Tab Shell.FlyoutBehavior="Disabled" Route="TopCategorias" Title="Top Categorias">
@@ -69,11 +74,12 @@
                 <Label Text="Top Categorias" FontSize="20" Margin="0,10,0,0" FontAttributes="Bold"/>
             </HorizontalStackLayout>
         </Shell.TitleView>
-            
+
         <ShellContent 
             Title="Drinks e Coquetéis"
             ContentTemplate="{DataTemplate ViewCategorias:PageDrinks}"
-            Route="PageDrinks" />
+            Route="PageDrinks">
+        </ShellContent>
         <ShellContent 
             Title="Almoços e Jantares"
             ContentTemplate="{DataTemplate ViewCategorias:PageAlmoco}"

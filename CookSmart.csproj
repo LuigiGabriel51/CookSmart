@@ -62,15 +62,19 @@
 	  <None Remove="Resources\Fonts\fa-brands-400.woff2" />
 	  <None Remove="Resources\Fonts\fa-solid-900.ttf" />
 	  <None Remove="Resources\Fonts\fa-solid-900.woff2" />
+	  <None Remove="Resources\Images\agenda.png" />
 	  <None Remove="Resources\Images\almoco.png" />
 	  <None Remove="Resources\Images\aperitivo.png" />
 	  <None Remove="Resources\Images\cafe.png" />
+	  <None Remove="Resources\Images\comendo.png" />
 	  <None Remove="Resources\Images\cozinhando.png" />
 	  <None Remove="Resources\Images\delete.png" />
 	  <None Remove="Resources\Images\drink.png" />
 	  <None Remove="Resources\Images\excluir.png" />
+	  <None Remove="Resources\Images\receita.png" />
 	  <None Remove="Resources\Images\salada.png" />
 	  <None Remove="Resources\Images\sobremesa.png" />
+	  <None Remove="ToolsApp\42a4m4ut.kp1~" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -78,6 +82,7 @@
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Plugin.LocalNotification" Version="10.1.3" />
 		<PackageReference Include="sqlite-net-base" Version="1.8.116" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
@@ -128,6 +133,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\PageVerMais.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ScheduleCook.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

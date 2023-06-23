@@ -94,6 +94,23 @@ namespace CookSmart.Models
             return Doces;
         }
 
+        public List<ModelCardapios> CardapioVegano()
+        {
+            var jObject = JObject.Parse(Cardapios);
+            var Pveganos = jObject["CardapioVegetariano"];
+            List<ModelCardapios> pveganos = new List<ModelCardapios>();
+            foreach (var i in Pveganos)
+            {
+                foreach (var j in i)
+                {
+                    ModelCardapios lista = j.ToObject<ModelCardapios>();
+                    pveganos.Add(lista);
+                }
+            }
+            Console.WriteLine(pveganos);
+            return pveganos;
+        }
+
         async Task LoadMauiAsset()
         {
             using var stream = await FileSystem.OpenAppPackageFileAsync("Cardapio.json");

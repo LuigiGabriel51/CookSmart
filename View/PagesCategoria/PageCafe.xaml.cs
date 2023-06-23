@@ -6,6 +6,7 @@ public partial class PageCafe : ContentPage
 {
     public PageCafe()
     {
+        Task.Delay(2000);
         InitializeComponent();
     }
 
@@ -13,6 +14,7 @@ public partial class PageCafe : ContentPage
     {
         var selectedItem = e.SelectedItem as ModelCardapios;
         var novaPagina = new PageOpenCardapio(selectedItem, selectedItem.Nome);
+        Shell.SetTitleView(novaPagina, null);
         Navigation.PushAsync(novaPagina);
     }
 }

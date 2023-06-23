@@ -2,7 +2,6 @@ using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using CookSmart.Models;
 using CookSmart.ViewModels;
-using System.Reflection.Metadata;
 
 namespace CookSmart.View;
 
@@ -22,18 +21,19 @@ public partial class PageMinhasReceitas : ContentPage
     {
         base.OnAppearing();
         MinhasReceitasVM vM = new MinhasReceitasVM();
-        if(vM.ReceitasSalvas == null) {
+        if (vM.ReceitasSalvas == null)
+        {
             emptyS.IsVisible = true;
         }
-        else { emptyS.IsVisible = false;  }
+        else { emptyS.IsVisible = false; }
         if (vM.ReceitasCriadas == null)
         {
             emptyC.IsVisible = true;
         }
-        else { emptyC.IsVisible=false; }
+        else { emptyC.IsVisible = false; }
         MinhasReceitasVM mr = new MinhasReceitasVM();
         receitassalvas.ItemsSource = mr.ReceitasSalvas;
-        receitascriadas.ItemsSource = mr.ReceitasCriadas; 
+        receitascriadas.ItemsSource = mr.ReceitasCriadas;
     }
 
     private void ListView_Refreshing(object sender, EventArgs e)
