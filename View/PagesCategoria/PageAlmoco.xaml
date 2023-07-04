@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CookSmart.View.PagesCategoria.PageAlmoco" xmlns:icon="clr-namespace:CookSmart.Models"
              Title="Top Categorias"  xmlns:model="clr-namespace:CookSmart.ViewModels"
-             >
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls">
     
     <ContentPage.BindingContext>
         <model:AlmocoVM/>
@@ -11,7 +11,7 @@
     <ScrollView BackgroundColor="Aqua">
         <StackLayout Orientation="Vertical">
             <ListView ItemsSource="{Binding Almocos}" HasUnevenRows="True" SelectionMode="Single" ItemSelected="ListView_ItemSelected" 
-                      IsVisible="true" x:Name="ListDrinks">
+                      IsVisible="true" x:Name="ListDrinks" android:ListView.IsFastScrollEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

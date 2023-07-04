@@ -7,9 +7,6 @@ namespace CookSmart.ViewModels
     {
         ConvertCardapio cc = new ConvertCardapio();
         public List<ModelCardapios> Petiscos { get; set; }
-        public PetiscosVM()
-        {
-            Petiscos = cc.CardapioPetiscos();
-        }
+        public PetiscosVM() => Petiscos = CardapiosProntos.CardapioPetiscos;
     }
 }

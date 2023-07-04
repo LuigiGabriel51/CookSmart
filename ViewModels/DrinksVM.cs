@@ -5,10 +5,9 @@ namespace CookSmart.Models
 {
     public class Drinks : ObservableObject
     {
-        ConvertCardapio ConvertCardapio = new ConvertCardapio();
         public List<ModelCardapios> DrinksDisp { get; set; }
 
-        public Drinks() => DrinksDisp = ConvertCardapio.CardapioDrinks();
+        public Drinks() => DrinksDisp = CardapiosProntos.CardapioDrinks;
     }
 
     public class ModelCardapios

@@ -2,6 +2,9 @@
 using CommunityToolkit.Mvvm.Input;
 using CookSmart.Models;
 using CookSmart.ToolsApp;
+using Plugin.LocalNotification;
+using CookSmart;
+using Microsoft.Maui.Controls.PlatformConfiguration;
 
 namespace CookSmart.ViewModels
 {
@@ -9,7 +12,8 @@ namespace CookSmart.ViewModels
     {
         private ConvertCardapio Convert = new ConvertCardapio();
         private List<ModelCardapios> _cardapios;
-        public List<ModelCardapios> Cardapios {
+        public List<ModelCardapios> Cardapios
+        {
             get { return _cardapios; }
             set { SetProperty(ref _cardapios, value); }
         }
@@ -49,9 +53,9 @@ namespace CookSmart.ViewModels
         {
 
             ToastMake toast = new();
-            if (AddCook())
+            if (await AddCook())
             {
-                await toast.ShowToatAsync($"Receita Programada para o dia {Schedule:yyyy/MM/d} às {Timespan}");
+                await toast.ShowToatAsync($"Receita Programada para o dia {Schedule:yyyy/MM/d} às {Timespan}.");
             }
             else await toast.ShowSnackBar($"Selecione uma data e uma receita para adicionar");
         }
@@ -71,11 +75,18 @@ namespace CookSmart.ViewModels
             petiscos.ForEach(petisco => CardapiosGerais.Add(petisco));
             veganos.ForEach(vegano => CardapiosGerais.Add(vegano));
             cafes.ForEach(cafe => CardapiosGerais.Add(cafe));
-            Cardapios =  CardapiosGerais;
+            Cardapios = CardapiosGerais;
         }
 
-        private bool AddCook()
+        private async Task<bool> AddCook()
         {
+            PermissionStatus status = await Permissions.CheckStatusAsync<Permissions.CalendarRead>();
+            PermissionStatus status1 = await Permissions.CheckStatusAsync<Permissions.CalendarWrite>();
+            if (status != PermissionStatus.Granted && status1 != PermissionStatus.Granted)
+            {
+                await Permissions.RequestAsync<Permissions.CalendarRead>();
+                await Permissions.RequestAsync<Permissions.CalendarWrite>();
+            }
             if (ItemSchedule != null)
             {
                 ModelScheduleCook receitas_programada = new()
@@ -84,8 +95,12 @@ namespace CookSmart.ViewModels
                     image = ItemSchedule.image,
                     date = Schedule + Timespan,
                 };
+
+                CalendarService calendar = new CalendarService();
                 ReceitasProgramadas receitas = new();
+                calendar.InserirEvento("Receita programada", $"receita de {receitas_programada.Nome}", DateTime.Now.AddMinutes(10), DateTime.Now.AddMinutes(20));    
                 receitas.Create(receitas_programada);
+
                 return true;
             }
             return false;
@@ -94,7 +109,7 @@ namespace CookSmart.ViewModels
         private static List<ModelScheduleCook> GetReceitasProgramadas()
         {
             ReceitasProgramadas receitas = new();
-            return receitas.List();
+            return receitas.List().OrderByDescending(x => x.date).ToList();
         }
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

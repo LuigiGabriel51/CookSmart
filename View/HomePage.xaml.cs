@@ -125,5 +125,9 @@ public partial class HomePage : ContentPage
         Navigation.PushAsync(novaPagina);
     }
 
-
+    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        var novaPagina = new PageOpenCardapio(recomendado, recomendado.Nome);
+        Navigation.PushAsync(novaPagina);
+    }
 }

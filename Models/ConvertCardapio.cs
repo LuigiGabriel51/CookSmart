@@ -2,6 +2,16 @@
 
 namespace CookSmart.Models
 {
+    public static class CardapiosProntos
+    {
+        public static List<ModelCardapios> CardapioDrinks { get; set; }
+        public static List<ModelCardapios> CardapioAlmocos { get; set; }
+        public static List<ModelCardapios> CardapioCafes { get; set; }
+        public static List<ModelCardapios> CardapioPetiscos { get; set; }
+        public static List<ModelCardapios> CardapioDoces { get; set; }
+        public static List<ModelCardapios> CardapioVeganos { get; set; }
+
+    }
     public class ConvertCardapio
     {
         public ConvertCardapio()
@@ -111,7 +121,7 @@ namespace CookSmart.Models
             return pveganos;
         }
 
-        async Task LoadMauiAsset()
+        async void LoadMauiAsset()
         {
             using var stream = await FileSystem.OpenAppPackageFileAsync("Cardapio.json");
             using var reader = new StreamReader(stream);

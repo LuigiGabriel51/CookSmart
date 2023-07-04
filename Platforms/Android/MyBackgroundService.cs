@@ -1,13 +1,7 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CookSmart.Models;
-using Java.Sql;
 using CookSmart.ToolsApp;
 
 namespace CookSmart.Platforms.Android
@@ -24,13 +18,15 @@ namespace CookSmart.Platforms.Android
         {
             return null;
         }
+
         public override StartCommandResult OnStartCommand(Intent intent, StartCommandFlags flags, int startId)
         {
+
+            // Iniciar o serviço como Foreground Service
             handler = new Handler();
             runnable = new Action(DoBackgroundWork);
             handler.PostDelayed(runnable, interval);
-
-            return StartCommandResult.RedeliverIntent;
+            return StartCommandResult.Sticky;
         }
 
         public override void OnDestroy()
@@ -45,10 +41,9 @@ namespace CookSmart.Platforms.Android
 
         private void DoBackgroundWork()
         {
-            
             try
             {
-                // Realiza a verificação aqui
+                // Realize a verificação aqui
                 if (BadgNumber == 0)
                 {
                     ReceitasProgramadas receitas = new();
@@ -62,11 +57,14 @@ namespace CookSmart.Platforms.Android
                     {
                         Notifications notifications = new();
                         string text = $"Você organizou uma receita deliciosa de {r.Nome} para hoje, no dia {r.date:dd/MM/yyyy} às {r.date:HH:mm}.";
-                        notifications.NotifyScheduleCooking(r.date+TimeSpan.FromSeconds(10), text);
+                        notifications.NotifyScheduleCooking(r.date + TimeSpan.FromSeconds(10), text);
                         BadgNumber++;
                     }
                 }
-                else BadgNumber = 0;           
+                else
+                {
+                    BadgNumber = 0;
+                }
             }
             catch (Exception ex)
             {

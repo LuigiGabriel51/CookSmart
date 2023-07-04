@@ -33,6 +33,9 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.png" BaseSize="200,200" />
+		<MauiIcon Include="Resources\Images\icon.png">
+		  <BaseSize>200,200</BaseSize>
+		</MauiIcon>
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
@@ -57,6 +60,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Platforms\Android\MyBackgroundService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Models\Cardapio.json" />
 	  <None Remove="Resources\Fonts\fa-brands-400.ttf" />
 	  <None Remove="Resources\Fonts\fa-brands-400.woff2" />
@@ -71,6 +82,7 @@
 	  <None Remove="Resources\Images\delete.png" />
 	  <None Remove="Resources\Images\drink.png" />
 	  <None Remove="Resources\Images\excluir.png" />
+	  <None Remove="Resources\Images\icon.png" />
 	  <None Remove="Resources\Images\receita.png" />
 	  <None Remove="Resources\Images\salada.png" />
 	  <None Remove="Resources\Images\sobremesa.png" />

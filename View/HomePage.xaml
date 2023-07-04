@@ -64,7 +64,11 @@
                                 <Label Text=" min" TextColor="Black"/>
                             </HorizontalStackLayout>
                         </VerticalStackLayout>
-                        <Button BackgroundColor="Transparent" HeightRequest="310" WidthRequest="220" Clicked="Button_Clicked_1"/>
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1">
+
+                            </TapGestureRecognizer>
+                        </Grid.GestureRecognizers>
                     </Grid>
                 </ScrollView>
             </Frame>

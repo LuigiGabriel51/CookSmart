@@ -7,9 +7,6 @@ namespace CookSmart.ViewModels
     {
         private ConvertCardapio Convert = new ConvertCardapio();
         public List<ModelCardapios> Doces { get; set; }
-        public DocesVM()
-        {
-            Doces = Convert.CardapioDoces();
-        }
+        public DocesVM() => Doces = CardapiosProntos.CardapioDoces;
     }
 }

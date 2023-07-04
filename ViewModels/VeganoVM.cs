@@ -7,6 +7,6 @@ namespace CookSmart.ViewModels
     {
         ConvertCardapio CC = new ConvertCardapio();
         public List<ModelCardapios> Veganos { get; set; }
-        public VeganoVM() => Veganos = CC.CardapioVegano();
+        public VeganoVM() => Veganos = CardapiosProntos.CardapioVeganos;
     }
 }
