@@ -3,6 +3,9 @@
 ![Logo do Aplicativo](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2)
 
 
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 CookSmart é um aplicativo móvel projetado para entusiastas de receitas que amam explorar e experimentar novas criações culinárias. 
 Seja você um cozinheiro experiente ou esteja apenas começando sua jornada culinária, o CookSmart está aqui para inspirar e orientar 
