@@ -21,7 +21,7 @@ tempo de cozimento e porções. Além disso, você pode ver informações nutric
 personalizadas, como "Refeições Rápidas e Fáceis", "Delícias Vegetarianas" ou "Sobremesas Decadentes". 
 Crie sua própria biblioteca culinária adaptada às suas preferências.
 
-[Tecnologias Utilizadas]
+<h1 align="start"> Tecnologias Utilizadas </h1>
 
 O CookSmart é desenvolvido utilizando as seguintes tecnologias:
 
@@ -33,7 +33,7 @@ O CookSmart é desenvolvido utilizando as seguintes tecnologias:
 Obs: Não estou utilizando nenhuma API para receber os dados das receitas, todas que procurei eram pagas, e como esse é um projeto
 gratuito, optei por estruturar os dados internamente por um arquivo Json.
 
-algumas das telas: 
+<h1 align="start"> Telas </h1>: 
 
 ![Screenshot_20230705_014831](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/c54a90e4-7290-4e35-9426-32078f168543)
 ![Screenshot_20230705_014835](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/7d230efc-3334-48f6-9854-766778950479)
