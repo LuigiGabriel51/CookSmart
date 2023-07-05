@@ -1,6 +1,6 @@
 CookSmart
 
-![CooKSmart](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/8cd47f04-680e-42e8-b125-2dd492984fc0)
+![appicon](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2)
 
 
 
@@ -32,4 +32,3 @@ O CookSmart é desenvolvido utilizando as seguintes tecnologias:
 
 Obs: Não estou utilizando nenhuma API para receber os dados das receitas, todas que procurei eram pagas, e como esse é um projeto
 gratuito, optei por estruturar os dados internamente por um arquivo Json.
-
