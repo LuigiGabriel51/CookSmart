@@ -60,7 +60,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="IMessage.cs" />
 	  <Compile Remove="Platforms\Android\MyBackgroundService.cs" />
+	  <Compile Remove="Platforms\Android\ScheduleCookService.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -68,6 +70,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="hs_err_pid16480.log" />
 	  <None Remove="Models\Cardapio.json" />
 	  <None Remove="Resources\Fonts\fa-brands-400.ttf" />
 	  <None Remove="Resources\Fonts\fa-brands-400.woff2" />

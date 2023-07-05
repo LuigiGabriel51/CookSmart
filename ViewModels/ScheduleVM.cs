@@ -98,7 +98,7 @@ namespace CookSmart.ViewModels
 
                 CalendarService calendar = new CalendarService();
                 ReceitasProgramadas receitas = new();
-                calendar.InserirEvento("Receita programada", $"receita de {receitas_programada.Nome}", DateTime.Now.AddMinutes(10), DateTime.Now.AddMinutes(20));    
+                calendar.InserirEvento("Receita programada", $"receita de {receitas_programada.Nome}", receitas_programada.date, receitas_programada.date + TimeSpan.FromHours(1));    
                 receitas.Create(receitas_programada);
 
                 return true;
@@ -112,5 +112,4 @@ namespace CookSmart.ViewModels
             return receitas.List().OrderByDescending(x => x.date).ToList();
         }
     }
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }

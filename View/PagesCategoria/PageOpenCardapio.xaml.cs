@@ -1,4 +1,5 @@
 using CookSmart.Models;
+using CookSmart.ToolsApp;
 
 namespace CookSmart.View.PagesCategoria;
 
@@ -11,7 +12,7 @@ public partial class PageOpenCardapio : ContentPage
         BindingContext = bindingcontext;
     }
 
-    private void Button_Clicked(object sender, EventArgs e)
+    private async void Button_Clicked(object sender, EventArgs e)
     {
         Button button = (Button)sender;
         ModelCardapios currentItem = (ModelCardapios)button.BindingContext;
@@ -19,7 +20,8 @@ public partial class PageOpenCardapio : ContentPage
         {
             ReceitasSalvas NewReceita = new ReceitasSalvas();
             NewReceita.Create(currentItem);
+            ToastMake toast = new ToastMake();
+            await toast.ShowToatAsync("Receita adicionada ao livro de receitas");
         }
-        DisplayAlert("...", "Receita salva", "ok");
     }
 }

@@ -35,9 +35,4 @@ public partial class ScheduleCook : ContentPage
             await toast.ShowToatAsync(text);
         }
     }
-
-    private void AvailableRecipesListView_Scrolled(object sender, ScrolledEventArgs e)
-    {
-
-    }
 }

@@ -14,6 +14,7 @@
         public const string FolderOpen = "\uf07c";
         public const string ArrowLeft = "\u2190";
         public const string CircleQuestion = "\uf059";
+        public const string Heart = "\u2665";
     }
 
 }

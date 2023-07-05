@@ -1,6 +1,7 @@
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using CookSmart.Models;
+using CookSmart.View.PagesCategoria;
 using CookSmart.ViewModels;
 
 namespace CookSmart.View;
@@ -81,5 +82,17 @@ public partial class PageMinhasReceitas : ContentPage
             var toast = Toast.Make(text, duration, fontSize);
             await toast.Show(cancellationTokenSource.Token);
         }
+    }
+
+    private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        var selectedItem = e.SelectedItem as ModelCardapios;
+        var novaPagina = new PageOpenCardapio(selectedItem, selectedItem.Nome);
+        Shell.SetTitleView(novaPagina, null);
+        Navigation.PushAsync(novaPagina);
+    }
+
+    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
     }
 }

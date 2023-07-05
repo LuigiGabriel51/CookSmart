@@ -16,37 +16,35 @@
                     <Label.Text>
                         <MultiBinding StringFormat="{} {0}   {1}">
                             <Binding StringFormat="Receitas Salvas"/>
-                            <Binding StringFormat="{Static model:IconFont.FloppyDisk}" />
+                            <Binding StringFormat="{Static model:IconFont.Heart}" />
                         </MultiBinding>
                     </Label.Text>
                 </Label>
                 <Label Text="Nenhuma receita salva no momento"  HorizontalOptions="Center" FontSize="20" x:Name="emptyS" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}" IsVisible="false"/>
                 <ListView ItemsSource="{Binding ReceitasSalvas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitassalvas"
-                          SeparatorVisibility="None" android:ListView.IsFastScrollEnabled="True">
+                          SeparatorVisibility="None" android:ListView.IsFastScrollEnabled="True" ItemSelected="ListView_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                    <Grid>
-                                        <SwipeView>
-                                            <SwipeView.RightItems>
-                                                <SwipeItems>
-                                                    <SwipeItem Text="Delete"
+                                <ViewCell>
+                                    <SwipeView>
+                                        <SwipeView.RightItems>
+                                            <SwipeItems>
+                                                <SwipeItem Text="Delete"
                                                        IconImageSource="excluir.png" 
                                                        BackgroundColor="WhiteSmoke"
                                                        Invoked="SwipeItem_Invoked_1">
-                                                    </SwipeItem>
-                                                </SwipeItems>
-                                            </SwipeView.RightItems>
+                                                </SwipeItem>
+                                            </SwipeItems>
+                                        </SwipeView.RightItems>
 
-                                            <Frame BackgroundColor="LightYellow">
-                                                <HorizontalStackLayout Spacing="30">
-                                                    <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
-                                                    <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold" WidthRequest="180"/>
-                                                </HorizontalStackLayout>
-                                            </Frame>
-                                        </SwipeView>
-                                    </Grid>
+                                        <Frame BackgroundColor="LightYellow">
+                                            <HorizontalStackLayout Spacing="30">
+                                                <Image Source="{Binding image}" Aspect="AspectFill" HeightRequest="60"/>
+                                                <Label Text="{Binding Nome}" TextColor="Black" TextTransform="Uppercase" FontSize="16" FontAttributes="Bold" WidthRequest="180"/>
+                                            </HorizontalStackLayout>
+                                        </Frame>
+                                    </SwipeView>
                                 </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
@@ -60,11 +58,10 @@
                 <Label Text="Nenhuma receita criada no momento" IsVisible="false"  HorizontalOptions="Center" FontSize="20" x:Name="emptyC" WidthRequest="250" HorizontalTextAlignment="Center"
                        TextColor="{StaticResource Primary}"/>
                 <ListView ItemsSource="{Binding ReceitasCriadas}" HasUnevenRows="True"  Margin="0,20,0,0" x:Name="receitascriadas"
-                          SeparatorVisibility="None">
+                          SeparatorVisibility="None" ItemSelected="ListView_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <Grid>
+                                <ViewCell>
                                     <SwipeView>
                                         <SwipeView.RightItems>
                                             <SwipeItems>
@@ -83,8 +80,7 @@
                                             </HorizontalStackLayout>
                                         </Frame>
                                     </SwipeView>
-                                </Grid>
-                            </ViewCell>
+                                </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
