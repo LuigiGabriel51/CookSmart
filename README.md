@@ -1,6 +1,6 @@
-CookSmart
+<h1 align="center"> CookSmart </h1>
 
-![appicon](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2)
+![Logo do Aplicativo](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2)
 
 
 
@@ -8,7 +8,7 @@ CookSmart é um aplicativo móvel projetado para entusiastas de receitas que ama
 Seja você um cozinheiro experiente ou esteja apenas começando sua jornada culinária, o CookSmart está aqui para inspirar e orientar 
 você no mundo das deliciosas receitas.(É um APP base, ainda está em desenvolvimento)
 
-[Recursos]
+<h1 align="start"> Recursos </h1>
 
 -> Navegar por Receitas: Explore uma vasta coleção de receitas de diversas culinárias, tipos de refeições e preferências dietéticas. 
 Encontre receitas para café da manhã, almoço, jantar, sobremesas e muito mais.
