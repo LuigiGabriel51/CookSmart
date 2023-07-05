@@ -1,7 +1,9 @@
 <h1 align="center"> CookSmart </h1>
 
-![Logo do Aplicativo](https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2)
-
+<p align="start">
+<h4 align="start"> Logo do Aplicativo </h1>
+<img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/cf31bde9-e947-49ab-8a4e-71a8d6c28ae2" width="200" height="200"
+</p>
 
 <p align="start">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -42,18 +44,23 @@ gratuito, optei por estruturar os dados internamente por um arquivo Json.
 
 <h1 align="start"> Telas </h1>: 
 
+<h4 align="start"> Tela de Categorias(HomePage) </h1>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/c54a90e4-7290-4e35-9426-32078f168543" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/7d230efc-3334-48f6-9854-766778950479" width="200" height="400"/> 
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/773e1b47-f46b-43bb-80db-70a4c6bdf359" width="200" height="400"/> 
+<h4 align="start"> Tela de recomendação </h1>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/a3806283-3258-4f60-b570-77c164d14199" width="200" height="400"/> 
+<h4 align="start"> Telas de recomendações </h1>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/d80856aa-2ae7-4308-9f83-195e7a0b8c1e" width="200" height="400"/> 
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/a4b36615-6b21-41d0-8527-4a84736039dc" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/3e08beb9-e26d-4b64-a86b-6e3c6614e249" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/891f7484-84eb-4f44-8e0a-ed7c8bd5eddc" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/0a46fbf6-ef72-427c-91d0-b18d683c0a1f" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/2d64daa0-5026-4631-8606-15a777b799fb" width="200" height="400"/>
+<h4 align="start"> Tela de Receitas salvas e criadas </h1>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/329ae278-1bd7-40f2-be7c-2853ed626376" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/93d1ca6a-de19-4ba0-9a27-9491d8941264" width="200" height="400"/>
+<h4 align="start"> Tela de Programação de receitas </h1>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/2d735560-63e7-4718-8ca2-f848f855fa2a" width="200" height="400"/>
 <img src="https://github.com/LuigiGabriel51/CookSmart/assets/112506473/ee4844fa-e098-45ba-9227-5adcb754c7ce" width="200" height="400"/>
 
