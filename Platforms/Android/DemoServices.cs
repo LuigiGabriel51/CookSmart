@@ -40,13 +40,13 @@ namespace CookSmart
         }
         public void Start()
         {
-            Intent startIntent = new Intent(Android.App.Application.Context, typeof(DemoServices));
+            Intent startIntent = new (Android.App.Application.Context, typeof(DemoServices));
             startIntent.SetAction("START_SERVICE");
             Android.App.Application.Context.StartService(startIntent);
         }
         public void Stop()
         {
-            Intent stopIntent = new Intent(Android.App.Application.Context, typeof(DemoServices));
+            Intent stopIntent = new (Android.App.Application.Context, typeof(DemoServices));
             stopIntent.SetAction("STOP_SERVICE");
             Android.App.Application.Context.StopService(stopIntent);
         }
@@ -54,7 +54,7 @@ namespace CookSmart
         private void RegisterNotification(string data, string data2)
         {
             Manager = (GetSystemService(Context.NotificationService) as NotificationManager)!;
-            createNotificationChannel(Manager);
+            CreateNotificationChannel(Manager);
             Notification notification = new Notification.Builder(this, "1000")
                 .SetContentTitle("Receita programada")
                 .SetSubText(data2)
@@ -66,11 +66,13 @@ namespace CookSmart
             StartForeground(1, notification);
         }
 
-        private NotificationChannel? createNotificationChannel(NotificationManager notificationMnaManager)
+#pragma warning disable CS8632 // A anotação para tipos de referência anuláveis deve ser usada apenas em código em um contexto de anotações '#nullable'.
+        private NotificationChannel? CreateNotificationChannel(NotificationManager notificationMnaManager)
+#pragma warning restore CS8632 // A anotação para tipos de referência anuláveis deve ser usada apenas em código em um contexto de anotações '#nullable'.
         {
             if (Build.VERSION.SdkInt < BuildVersionCodes.O) return null;
 
-            NotificationChannel channel = new NotificationChannel("1000", "notification", NotificationImportance.Default);
+            NotificationChannel channel = new ("1000", "notification", NotificationImportance.Default);
             notificationMnaManager.CreateNotificationChannel(channel);
 
             return channel;

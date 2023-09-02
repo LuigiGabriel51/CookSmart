@@ -10,7 +10,7 @@ namespace CookSmart.ViewModels
 {
     public class ScheduleVM : ObservableObject
     {
-        private ConvertCardapio Convert = new ConvertCardapio();
+        private ConvertCardapio Convert = new();
         private List<ModelCardapios> _cardapios;
         public List<ModelCardapios> Cardapios
         {
@@ -95,13 +95,14 @@ namespace CookSmart.ViewModels
                     image = ItemSchedule.image,
                     date = Schedule + Timespan,
                 };
-
+#if ANDROID
                 CalendarService calendar = new CalendarService();
                 ReceitasProgramadas receitas = new();
                 calendar.InserirEvento("Receita programada", $"receita de {receitas_programada.Nome}", receitas_programada.date, receitas_programada.date + TimeSpan.FromHours(1));    
                 receitas.Create(receitas_programada);
 
                 return true;
+#endif
             }
             return false;
         }
