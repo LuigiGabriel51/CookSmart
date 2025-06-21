@@ -9,7 +9,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-(1° app desenvolvido na minha carreira com .net MAUI) CookSmart é um aplicativo móvel projetado para entusiastas de receitas que amam explorar e experimentar novas criações culinárias. 
+<h3 align="start"> (1° app desenvolvido na minha carreira com .net MAUI) </h3> CookSmart é um aplicativo móvel projetado para entusiastas de receitas que amam explorar e experimentar novas criações culinárias. 
 Seja você um cozinheiro experiente ou esteja apenas começando sua jornada culinária, o CookSmart está aqui para inspirar e orientar 
 você no mundo das deliciosas receitas.(É um APP base, ainda está em desenvolvimento)
 
